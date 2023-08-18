@@ -15,7 +15,7 @@
 <p align="justify">Somos estudiantes de la carrera de Ingenieria Biomedica de la Universidad Peruana Cayetano Heridia y Pontificia Universidad Catolica del Peru.
 
 ### Integrantes:
-  * Jamila Vitella
+  * Jamila Vitella 
     <p align="justify"> Estudiante de Inginieria Biomedica con interes
   * Diego Romero
     <p align="justify">
@@ -23,7 +23,7 @@
     <p align="justify">
   * Eisel Pinado
     <p align="justify">
-    
+ <img src="fotogrupal.jpeg" height="450">   
 
 ### Docentes del curso
 - Lewis de la Cruz - umbert.de.la.cruz@upch.pe
