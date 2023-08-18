@@ -6,7 +6,7 @@
 4. Informática biomédica e introducción a la inteligencia artificial en señales biomédicas
 
 ### ¿Que son las señales biomedicas?
-<p align="justify">Son señales electricas, mecanicas, opticas o alguna ptra senal que provengan del cuerpo humano y que contenga informacion relacionada a algun proceso biologico, fisiologico o patologico. Son fundamentales para el diagnosticco, monitoreo y estudio de las enfermedades.
+<p align="justify">Son señales electricas, mecanicas, opticas o alguna otra senal que provengan del cuerpo humano y que contenga informacion relacionada a algun proceso biologico, fisiologico o patologico. Son fundamentales para el diagnosticco, monitoreo y estudio de las enfermedades.
 
 ### Propuesta de proyecto
 <p align="justify">Nuestro propuesta de proyecto es un dispositivo de deteccion de convulsiones mediante el uso del electroencefalograma (EEG) para evaluar la actividad electrica en cerebro.
@@ -16,10 +16,14 @@
 
 ### Integrantes:
   * Jamila Vitella
-    Estudiante de Inginieria Biomedica con interes
+    <p align="justify"> Estudiante de Inginieria Biomedica con interes
   * Diego Romero
+    <p align="justify">
   * Claudia Zavaleta
+    <p align="justify">
   * Eisel Pinado
+    <p align="justify">
+    
 
 ### Docentes del curso
 - Lewis de la Cruz - umbert.de.la.cruz@upch.pe
