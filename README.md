@@ -23,6 +23,7 @@
     <p align="justify">
   * Eisel Pinado
     <p align="justify"> Estudiante de Ingenieria Biomédica con interes particular en el ámbito de Ingenieria Clinica. Me considero una persona enfocada a sus proyectos y de mente abierta a nuevas ideas.
+
  <img src="fotogrupal.jpeg" height="450">   
 
 ### Docentes del curso
