@@ -24,7 +24,7 @@
   * Eisel Pinado
     <p align="justify"> Estudiante de Ingenieria Biomédica con interes particular en el ámbito de Ingenieria Clinica. Me considero una persona enfocada a sus proyectos y de mente abierta a nuevas ideas.
 
- <img src="Imágenes/fotogrupal.jpeg" height="450">   
+ <img src="Imagenes/fotogrupal.jpeg" height="450">   
 
 ### Docentes del curso
 - Lewis de la Cruz - umbert.de.la.cruz@upch.pe
