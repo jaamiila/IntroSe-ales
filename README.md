@@ -18,11 +18,11 @@
   * Jamila Vitella 
     <p align="justify"> Estudiante de cuarto ciclo de Ingeniería Biomédica. Me considero responsable y creativa. Me gusta mucho la parte tecnológica de mi carrera ya que nos incentiva a ser más críticos e innovar a través de la ciencia.
   * Diego Romero
-    <p align="justify">
+    <p align="justify"> Estudiante de Ingenieria Biomédica con gran admiración a la gestión de salud y futura especialización en Ingeniería Clínica. Con aspiración a poder mejorar la calidad de vida de los pacientes en el sector público, los cuales no cuentan con un servicio de salud adecuado y de calidad en nuestro país.
   * Claudia Zavaleta
     <p align="justify">
   * Eisel Pinado
-    <p align="justify"> Estudiante de Ing.Biomedica con interes particular en el ámbito de ingenieria clinica. Me considero que soy una persona enfocada a sus proyectos y de mente abierta a nuevas ideas.
+    <p align="justify"> Estudiante de Ingenieria Biomédica con interes particular en el ámbito de Ingenieria Clinica. Me considero una persona enfocada a sus proyectos y de mente abierta a nuevas ideas.
  <img src="fotogrupal.jpeg" height="450">   
 
 ### Docentes del curso
