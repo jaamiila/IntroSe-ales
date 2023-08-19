@@ -20,7 +20,8 @@
   * Diego Romero
     <p align="justify"> Estudiante de octavo ciclo de Ingenieria Biomédica con gran admiración a la gestión de salud y futura especialización en Ingeniería Clínica. Me gustaria mejorar la calidad de vida de los pacientes en el sector público.
   * Claudia Zavaleta
-    <p align="justify">
+    <p align="justify">Estudiante de pregrado de Ingeniería Biomédica con especial interés en el campo de Ingeniería de Tejidos y Biomateriales. Me considero una persona responsable y comprometida a mejorar el sistema de salud del país.
+
   * Eisel Pinado
     <p align="justify"> Estudiante de octavo ciclo de Ingenieria Biomédica con interes particular en el ámbito de Ingenieria Clinica. Me considero una persona enfocada a sus proyectos y de mente abierta a nuevas ideas.
 
