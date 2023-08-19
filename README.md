@@ -1,4 +1,4 @@
-## Introduccion a Señales Biomedicas - Grupo 4
+Ing.Biomedica## Introduccion a Señales Biomedicas - Grupo 4
 #### *Unidades del curso*
 1. Introducción, adquisición y principios fisiológicos de las señales biomédicas
 2. Análisis de ECG, EMG y EEG
@@ -22,7 +22,7 @@
   * Claudia Zavaleta
     <p align="justify">
   * Eisel Pinado
-    <p align="justify">
+    <p align="justify"> Soy Eisel Pinado estudiante de Ing.Biomedica con interes particular en el ámbito de ingenieria clinica. Me considero que soy una persona enfocada a sus proyectos y de mente abierta a nuevas ideas.
  <img src="fotogrupal.jpeg" height="450">   
 
 ### Docentes del curso
