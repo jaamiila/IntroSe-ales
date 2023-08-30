@@ -1,11 +1,20 @@
 Nuestro equipo tuvo éxito generando señales cuadradas, triangulares y senoidales utilizando un generador de funciones y visualizándolas correctamente en un osciloscopio. Sin embargo, al intentar leer estas señales con un Arduino Nano 33 IoT y enviar los datos a una laptop, surgieron problemas al leer la señal.
 Para obtener las señales se establecio la frecuencia y el voltaje requerido:
 
- <img src="Documentacion/Lab2/Generador.jpeg" height="450">  
+ <img src="Documentacion/Lab2/Generador.jpeg">  
+ 
+ ![Generador](https://github.com/jaamiila/IntroSe-ales/assets/142609599/fe276417-fddd-45ae-83ef-a7300a327662)
+ 
  Lo cual se llego a visualizar correctamente en el osciloscopio.
- <img src="Documentacion/Lab2/Señal1.jpeg" height="450">  
+ <img src="Documentacion/Lab2/Señal1.jpeg">  
+ 
+ ![Señal1](https://github.com/jaamiila/IntroSe-ales/assets/142609599/23556909-ba2a-4070-b080-5ba829f3eed9)
+
 Luego de eso se procedio a colocar al arduino y al capacitor en el protoboard para poder conectarle el generador y asi observar la señal.
- <img src="Documentacion/Lab2/Armado1.jpeg" height="450">  
+
+ <img src="Documentacion/Lab2/Armado1.jpeg">  
+ 
+![Armado1](https://github.com/jaamiila/IntroSe-ales/assets/142609599/04d3d0e6-b37d-47b5-a87e-d0a8e54790ee)
 
 Sin embargo no se llego a observar la señal mostrada anteriormente, sino muestras de ruido(el cual no debio aparecer debido al filtrado del capacitor) y valores atipicos, entre los resultados obtenidos estos son algunos:
 
