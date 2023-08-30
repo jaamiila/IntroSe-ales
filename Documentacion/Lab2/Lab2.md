@@ -2,15 +2,20 @@ Nuestro equipo tuvo éxito generando señales cuadradas, triangulares y senoidal
 Para obtener las señales se establecio la frecuencia y el voltaje requerido:
 
  <img src="Documentacion/Lab2/Generador.jpeg" height="450">  
- 
-Uno de los resultados obtenidos fueron los siguientes:
+ Lo cual se llego a visualizar correctamente en el osciloscopio.
+ <img src="Documentacion/Lab2/Señal1.jpeg" height="450">  
+Luego de eso se procedio a colocar al arduino y al capacitor en el protoboard para poder conectarle el generador y asi observar la señal.
+ <img src="Documentacion/Lab2/Armado1.jpeg" height="450">  
+
+Sin embargo no se llego a observar la señal mostrada anteriormente, sino muestras de ruido(el cual no debio aparecer debido al filtrado del capacitor) y valores atipicos, entre los resultados obtenidos estos son algunos:
 
 https://github.com/jaamiila/IntroSe-ales/assets/142609599/e2c74fa3-972b-4326-a5a9-5550a7ac4fb7
 
 https://github.com/jaamiila/IntroSe-ales/assets/142609599/ebf175bf-82b3-4e12-8122-4b3cf93f4553
 
-Donde se puede observar como las ondas tienden a las formas queridas, pero no llega a ser la querida, 
-###Algunas posibles fuentes de error fueron:
+Donde se puede observar como las ondas tienden a las formas queridas, pero no llega a ser las requeridas, por esa razon pensamos en motivos del porque no podiamos obtener esa señal.
+
+Algunas posibles fuentes de error fueron:
 
   *Frecuencia Inadecuada: 
   <p align="justify">Si la frecuencia de muestreo del Arduino es demasiado baja en comparación con la frecuencia de la señal, se puede producir aliasing. El aliasing ocurre cuando las frecuencias de alta frecuencia se interpretan incorrectamente como frecuencias más bajas debido a una frecuencia de muestreo insuficiente. Esto puede distorsionar la forma de onda y dificultar la reconstrucción precisa de la señal original. 
