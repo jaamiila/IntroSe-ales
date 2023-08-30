@@ -32,3 +32,17 @@
 - Moises Meza - moises.meza@upch.pe
 - José Alonso Cáceres - jo.alonsok@gmail.com
 - Avid Roman - avid.roman.g@upch.pe
+
+### Ploteo de señales en Arduino IDE
+<p align="justify">Nuestro equipo tuvo éxito generando señales cuadradas, triangulares y senoidales utilizando un generador de funciones y visualizándolas correctamente en un osciloscopio. Sin embargo, al intentar leer estas señales con un Arduino Nano 33 IoT y enviar los datos a una laptop, surgieron algunos inconvenientes al leer la señal.
+
+<p align="justify">Algunas posibles fuentes de error fueron:
+
+<p align="justify">Frecuencia Inadecuada: Pudo suceder que la frecuencia de muestreo del Arduino es demasiado baja en comparación con la frecuencia de la señal, se puede producir aliasing. El aliasing ocurre cuando las frecuencias de alta frecuencia se interpretan incorrectamente como frecuencias más bajas debido a una frecuencia de muestreo insuficiente. Esto puede distorsionar la forma de onda y dificultar la reconstrucción precisa de la señal original. 
+
+<p align="justify">Resolución de ADC Insuficiente: Los microcontroladores, como el Arduino Nano 33 IoT, tienen un Convertidor Analógico-Digital (ADC) que convierte la señal analógica en valores digitales. Si la resolución del ADC es insuficiente en comparación con la amplitud de la señal, se pueden perder detalles finos de la señal y obtener mediciones incorrectas.
+
+<p align="justify">Ruido y Perturbaciones: Los microcontroladores están sujetos a ruido eléctrico y perturbaciones en el entorno. Esto puede introducir errores en las mediciones y afectar la precisión de las señales capturadas.
+
+<p align="justify">Problemas de Conexión: Las conexiones eléctricas entre el generador de funciones y el Arduino pueden causar problemas si no están aseguradas adecuadamente. Conexiones flojas o inestables pueden llevar a mediciones inconsistentes o incorrectas.
+
