@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
     
-direct = "C:/Code Justfun/isb_emg_lab3/dedo.txt"
+direct = "C:\Users\Claudia\Documents\OpenSignals (r)evolution\files\Reporte 1.2.txt"
 
 file = pd.read_csv(direct,sep="\t",header=None)
 signal = np.array(file[5])
