@@ -3,7 +3,20 @@
     <meta content="text/html; charset=UTF-8" http-equiv="content-type" />
   </head>
   <body class="c23 doc-content">
-    <h2 class="c17"><span class="c5">Introducci&oacute;n:</span></h2>
+    # **LABORATORIO 4: – Uso de BiTalino para ECG**
+
+# **Tabla de contenidos**
+1. [Introducción](#id0)
+2. [Objetivos](#id1)
+3. [Materiales y equipos](#id2)
+4. [¿Que es un ECG?](#id3)
+5. [Procedimiento](#id4)
+6. [Resultados](#id5)
+7. [Discucion](#id6)
+8. [Conclusiones](#id7)
+9. [Referencias](#id8).
+
+    <h2 class="c17"><span class="c5">Introducci&oacute;n:</span></h2><a name="id0"></a>
     <p class="c8"><span class="c2"></span></p>
     <p class="c17">
       <span class="c2"
@@ -20,7 +33,7 @@
       >
     </p>
     <p class="c8"><span class="c2"></span></p>
-    <h2 class="c17"><span class="c5">Objetivos espec&iacute;ficos:</span></h2>
+    <h2 class="c17"><span class="c5">Objetivos espec&iacute;ficos:</span></h2><a name="id1"></a>
     <p class="c8"><span class="c2"></span></p>
     <p class="c17">
       <span class="c2"
@@ -122,7 +135,7 @@
       >
     </p>
     <p class="c8"><span class="c2"></span></p>
-    <h2 class="c17"><span class="c5">Materiales y equipo:</span></h2>
+    <h2 class="c17"><span class="c5">Materiales y equipo:</span></h2><a name="id2"></a>
     <p class="c8"><span class="c5"></span></p>
     <a id="t.f2a3bc886aaf4bf27e671900f975c113874ee695"></a><a id="t.0"></a>
     <table class="c36">
@@ -216,7 +229,7 @@
       </li>
     </ul>
     <p class="c8 c19"><span class="c2"></span></p>
-    <h2 class="c17"><span class="c5">&iquest;Qu&eacute; es un ECG?</span></h2>
+    <h2 class="c17"><span class="c5">&iquest;Qu&eacute; es un ECG?</span></h2><a name="id3"></a>
     <p class="c17">
       <span
         >Un electrocardiograma(ECG) es un procedimiento indoloro y no invasivo
@@ -349,7 +362,7 @@
     </p>
     <p class="c26" align="center"><span>Img.2 Ubicaci&oacute;n de derivaciones[7]</span></p>
     <p class="c8"><span class="c5"></span></p>
-    <p class="c17"><span class="c5">Procedimiento:</span></p>
+    <h2 class="c17"><span class="c5">Procedimiento:</span></h2><a name="id4"></a>
     <ol class="c10 lst-kix_mnifvcvxdhvy-0 start" start="1">
       <li class="c18 c37 li-bullet-0">
         <span class="c2">Preparaci&oacute;n del paciente</span>
@@ -626,7 +639,8 @@
     <p class="c8 c19"><span class="c2"></span></p>
     <p class="c8"><span class="c2"></span></p>
     <p class="c8"><span class="c2"></span></p>
-    <h2 class="c17"><span class="c5">Discusi&oacute;n:</span></h2>
+    <h2 class="c17"><span class="c5">Resultados:</span></h2><a name="id5"></a>
+    <h2 class="c17"><span class="c5">Discusi&oacute;n:</span></h2><a name="id6"></a>
     <ul class="c10 lst-kix_ic9oo7po0cv4-0 start">
       <li class="c13 c28 li-bullet-0"><span class="c2"></span></li>
     </ul>
@@ -775,7 +789,8 @@
     <p class="c17"><span class="c2">Grupo 4</span></p>
     <p class="c8"><span class="c2"></span></p>
     <p class="c8"><span class="c2"></span></p>
-    <h2 class="c17"><span class="c5">Referencias:</span></h2>
+    <h2 class="c17"><span class="c5">Concluci&oacute;n:</span></h2><a name="id7"></a>
+    <h2 class="c17"><span class="c5">Referencias:</span></h2><a name="id8"></a>
     <p class="c17">
       <span>[1] Ar&oacute;s </span><span class="c15">et al.</span
       ><span>&nbsp;(2013) </span
