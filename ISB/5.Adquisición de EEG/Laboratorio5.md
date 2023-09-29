@@ -3,7 +3,6 @@
     <meta content="text/html; charset=UTF-8" http-equiv="content-type" />
   </head>
   <body class="c23 doc-content">
-    # **LABORATORIO 5: – Procedimiento de registro EEG**
 
 # **Tabla de contenidos**
 1. [Introducción](#id0)
