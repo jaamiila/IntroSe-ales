@@ -20,15 +20,5 @@
     <p class="c8"><span class="c2"></span></p>
     <p class="c17">
       <span class="c2">
-        El estudio de se&ntilde;ales biom&eacute;dicas, como las se&ntilde;ales
-        electromiogr&aacute;ficas (EMG) y electrocardiogr&aacute;ficas (ECG),
-        desempe&ntilde;a un papel fundamental en la comprensi&oacute;n de la
-        actividad muscular y card&iacute;aca, respectivamente. En esta
-        pr&aacute;ctica de laboratorio, nuestro objetivo principal fue adquirir
-        y analizar estas se&ntilde;ales utilizando el sistema BiTalino y el
-        software OpenSignals (r)evolution. Para lograr esto, configuramos
-        adecuadamente el equipo, realizamos conexiones con electrodos en el
-        cuerpo de nuestros compa&ntilde;eros estudiantes y registramos las
-        se&ntilde;ales EMG y ECG en diferentes condiciones.
       </span>
     </p>
