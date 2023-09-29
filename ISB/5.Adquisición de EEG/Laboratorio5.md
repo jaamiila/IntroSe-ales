@@ -11,7 +11,7 @@
 4. [¿Que es un EEG?](#id3)
 5. [Procedimiento](#id4)
 6. [Resultados](#id5)
-7. [Discucion](#id6)
+7. [Discusión](#id6)
 8. [Conclusiones](#id7)
 9. [Referencias](#id8).
 
