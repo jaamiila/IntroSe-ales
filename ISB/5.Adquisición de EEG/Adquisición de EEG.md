@@ -9,7 +9,7 @@
 1. [Introducción](#id0)
 2. [Objetivos](#id1)
 3. [Materiales y equipos](#id2)
-4. [¿Que es un ECG?](#id3)
+4. [¿Que es un EEG?](#id3)
 5. [Procedimiento](#id4)
 6. [Resultados](#id5)
 7. [Discucion](#id6)
