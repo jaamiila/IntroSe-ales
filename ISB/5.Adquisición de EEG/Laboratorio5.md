@@ -13,7 +13,7 @@
 6. [Resultados](#id5)
 7. [Discusión](#id6)
 8. [Conclusiones](#id7)
-9. [Referencias](#id8).
+9. [Referencias](#id8)
 
 <h2 class="c17"><span class="c5">Introducci&oacute;n:</span></h2><a name="id0"></a>
     <p class="c8"><span class="c2"></span></p>
