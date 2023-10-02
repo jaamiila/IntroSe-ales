@@ -42,7 +42,7 @@ En términos generales, estos métodos permiten la captura de señales eléctric
 <h2 class="c17"><span class="c5">Procedimiento:</span></h2><a name="id3"></a>
 
   ### Fotos de conexión usada en el UltraCortex
-<p align="center"><img src="Imagenes_lab5/Instalacion.png" width=400p /></p>
+<p align="center"><img src="Imagenes_lab5/Instalacion.jpeg" width=400p /></p>
   
   ## Ploteo de la señal en OpenBCI GUI
   <p align="justify">
@@ -53,15 +53,19 @@ En términos generales, estos métodos permiten la captura de señales eléctric
   <p align="justify">
   En nuestro laboratorio se llegó a colocar el Ultra Cortex en uno de los integrantes, pero debido a falta de tiempo y problemas de conexión con la laptop no se      llegó a observar la onda cerebral de nuestro compañero, debido a eso se presentará una idea de lo que se debió obtener en el laboratorio así como nuestra           interpretación.
   </p>
-  <p align="center"><img src="Imagenes_lab5/Instalacion.png" width=400p /></p>
+  <p align="center"><img src="Imagenes_lab5/Instalacion.jpeg" width=400p /></p>
 
   <p align="justify">
   De las imágenes y videos vistos anteriormente se debió obtener la siguiente gráfica estando en diferentes estados, uno en reposo, el segundo parpadeando y por      último preguntas para realizar esfuerzo mental.
   </p>
   <p align="center"><img src="Imagenes_lab5/Interfaz_deseada.png" width=400p /></p>
+   <p align="center">Interfaz deseada</p>
   <p align="center"><img src="Imagenes_lab5/Deseada_reposo.png" width=400p /></p>
+   <p align="center">Interfaz deseada en reposo</p>
   <p align="center"><img src="Imagenes_lab5/Deseada_parpadeo.png" width=400p /></p>
+  <p align="center">Interfaz deseada parpadeo</p>
   <p align="center"><img src="Imagenes_lab5/Deseada_preguntas.png" width=400p /></p>
+   <p align="center"> Interfaz deseada de preguntas</p>
   
   <p align="justify">
   Como se observa se usó la misma metodología para ambos casos, pero solo se ploteara la señal obtenida usando el Open Signals debido a los problemas mencionados     anteriormente.
