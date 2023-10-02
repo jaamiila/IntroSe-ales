@@ -72,7 +72,7 @@ En términos generales, estos métodos permiten la captura de señales eléctric
   </p>
 
   ### Fotos de conexión usada en el EEG
-  <p align="center"><img src="Imagenes_lab5/Ultra_cortex.png" width=400p /></p>
+  <p align="center"><img src="Imagenes_lab5/cap3.png" width=400p /></p>
 
   ## Video de señal mostrando el punto 1,2 y 4 del procedimiento
   https://github.com/jaamiila/IntroSe-ales/blob/main/ISB/5.Adquisici%C3%B3n%20de%20EEG/toma%20de%20datos%20Bitalino.mp4
