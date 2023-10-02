@@ -8,12 +8,11 @@
 1. [Introducción](#id0)
 2. [Objetivos](#id1)
 3. [Materiales y equipos](#id2)
-4. [¿Que es un EEG?](#id3)
-5. [Procedimiento](#id4)
-6. [Resultados](#id5)
-7. [Discusión](#id6)
-8. [Conclusiones](#id7)
-9. [Referencias](#id8)
+4. [Procedimiento](#id3)
+5. [Resultados](#id4)
+6. [Discusión](#id5)
+7. [Conclusiones](#id6)
+8. [Referencias](#id7)
 
 <h2 class="c17"><span class="c5">Introducci&oacute;n:</span></h2><a name="id0"></a>
 <p align="justify">
@@ -34,3 +33,8 @@
         <li>1 Kit BiTalino modelo (R)EVOLUTION
         <li>1 Ultracortex	modelo Mark IV	
         <li>1 Laptop o PC
+
+<h2 class="c17"><span class="c5">Procedimiento:</span></h2><a name="id3"></a>
+
+### Fotos de conexión usada
+#### Ultracortex - Cabeza
