@@ -42,33 +42,33 @@ En términos generales, estos métodos permiten la captura de señales eléctric
 <h2 class="c17"><span class="c5">Procedimiento:</span></h2><a name="id3"></a>
 
   ### Fotos de conexión usada en el UltraCortex
-  foto
+<p align="center"><img src="Imagenes_lab5/Instalacion.png" width=400p /></p>
   
   ## Ploteo de la señal en OpenBCI GUI
   <p align="justify">
   OpenBCI es una herramienta open-source diseñada enfocada en biosensores y neurociencia, cuyo objetivo es disminuir la barrera existente al mundo de la interfaz     computador cerebro, manteniendo la protección del consumidor de manera ética.[1]
   </p>
-  imagen ultra cortex
+  <p align="center"><img src="Imagenes_lab5/Ultra_cortex.png" width=400p /></p>
   
   <p align="justify">
   En nuestro laboratorio se llegó a colocar el Ultra Cortex en uno de los integrantes, pero debido a falta de tiempo y problemas de conexión con la laptop no se      llegó a observar la onda cerebral de nuestro compañero, debido a eso se presentará una idea de lo que se debió obtener en el laboratorio así como nuestra           interpretación.
   </p>
-  instalacion
+  <p align="center"><img src="Imagenes_lab5/Instalacion.png" width=400p /></p>
 
   <p align="justify">
   De las imágenes y videos vistos anteriormente se debió obtener la siguiente gráfica estando en diferentes estados, uno en reposo, el segundo parpadeando y por      último preguntas para realizar esfuerzo mental.
   </p>
-  interfaz deseada
-  deseada reposo
-  deseada parpadeo
-  deseada preguntas
+  <p align="center"><img src="Imagenes_lab5/Interfaz_deseada.png" width=400p /></p>
+  <p align="center"><img src="Imagenes_lab5/Deseada_reposo.png" width=400p /></p>
+  <p align="center"><img src="Imagenes_lab5/Deseada_parpadeo.png" width=400p /></p>
+  <p align="center"><img src="Imagenes_lab5/Deseada_preguntas.png" width=400p /></p>
   
   <p align="justify">
   Como se observa se usó la misma metodología para ambos casos, pero solo se ploteara la señal obtenida usando el Open Signals debido a los problemas mencionados     anteriormente.
   </p>
 
   ### Fotos de conexión usada en el EEG
-  Foto
+  <p align="center"><img src="Imagenes_lab5/Ultra_cortex.png" width=400p /></p>
 
   ## Video de señal mostrando el punto 1,2 y 4 del procedimiento
   video
@@ -88,7 +88,7 @@ En términos generales, estos métodos permiten la captura de señales eléctric
 
   *Lo que se obtuvo en los resultados*: Se puede observar en la imagen el ruido que existe como picos en la amplitud de la señal que se pueden interpretar como       interferencia por el movimiento, mala colocación de los electrodos, de igual forma la amplitud de la señal EEG sería relativamente baja, lo que significa que las   oscilaciones de voltaje en la señal son suaves y no muy pronunciadas.
   </p>
-  plot
+  <p align="center"><img src="Imagenes_lab5/ploteo1.png" width=400p /></p>
   
  <p align="justify">
  *Paso 2*: Ciclo de OJOS ABIERTOS - OJOS CERRADOS (5 repeticiones)
@@ -107,7 +107,7 @@ Después de completar el ciclo de ojos abiertos y ojos cerrados, se registra nue
 *Lo que se espera de este paso*: En un estado de reposo, la señal EEG típicamente mostraría patrones de actividad cerebral relacionados con un cerebro en calma y sin una actividad cognitiva o física significativa al igual que en el paso 1.
 *Lo que se obtuvo en los resultados*: Resultado similar al paso 1.
 </p>
-foto
+<p align="center"><img src="Imagenes_lab5/ploteo2.png" width=400p /></p>
 
 <p align="justify">
 *Paso 4*: Resolución de ejercicios matemáticos mientras se registra la señal EEG
@@ -128,8 +128,11 @@ Finalmente, se detiene la grabación y se guardan los datos registrados para su 
 </p>
   
 ## Ploteo de la señal en Python
-  plot
-
+  <p align="center"><img src="Imagenes_lab5/ploteo1.png" width=400p /></p>
+  <p align="center"><img src="Imagenes_lab5/ploteo2.png" width=400p /></p>
+  <p align="center"><img src="Imagenes_lab5/fft_plot1.png" width=400p /></p>
+  <p align="center"><img src="Imagenes_lab5/fft_plot2.png" width=400p /></p>
+  
 <h2 class="c17"><span class="c5">Conclusiones:</span></h2><a name="id0"></a>
 <p align="justify">
   <body>
