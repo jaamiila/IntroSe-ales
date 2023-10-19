@@ -35,7 +35,7 @@ Los filtros IIR son utilizados en el procesamiento de señales bioeléctricas, c
 
 
 #### Filtros Wavelet
-La transformada wavelet discreta (DWT) es una técnica de procesamiento de señales que permite analizar señales no estacionarias y detectar cambios abruptos en la señal. Las wavelets son señales que tienen una duración limitada y un valor promedio de cero. La DWT se obtiene al discretizar los parámetros de desplazamiento y escalamiento dentro de la transformada wavelet continua. Los coeficientes wavelet nos indican cuánta relación hay entre la señal y la wavelet madre, lo que nos permite conocer los componentes frecuenciales de la señal. La DWT se utiliza en el procesamiento de señales bioeléctricas, como el EMG, para extraer características de la señal y mejorar su análisis[4][5][6].
+La transformada wavelet discreta (DWT) es una técnica de procesamiento de señales que permite analizar señales no estacionarias y detectar cambios abruptos en la señal. Las wavelets son señales que tienen una duración limitada y un valor promedio de cero. La DWT se obtiene al discretizar los parámetros de desplazamiento y escalamiento dentro de la transformada wavelet continua. Los coeficientes wavelet nos indican cuánta relación hay entre la señal y la wavelet madre, lo que nos permite conocer los componentes frecuenciales de la señal. La DWT se utiliza en el procesamiento de señales bioeléctricas, como el EMG, para extraer características de la señal y mejorar su análisis[4][5].
 
 ## Filtros en señal ECG
 
@@ -66,6 +66,8 @@ En conclusión, el uso de filtros FIR, IIR y DWT en el procesamiento de señales
 
 [5]	A. V. Oppenheim and R. W. Schafer, Discrete-time signal processing. New York, Ny: Peason, 2013.
 
-[6]	Universidad Tecnológica de Pereira, “CARACTERIZACIÓN DE SEÑALES ELECTROMIOGRÁFICAS PARA LA DISCRIMINACIÓN DE SEIS MOVIMIENTOS DE LA MANO,” Unirioja.es, Agosto de 2009. [Online]. Available: https://dialnet.unirioja.es/descarga/articulo/4706922.pdf. [Accessed: 18-Oct-2023].
+[6]	P. K. Sadasivan and D. N. Dutt, “Use of finite wordlength FIR digital filter structures with improved magnitude and phase characteristics for reduction of muscle noise in EEG signals,” Medical &amp; Biological Engineering &amp; Computing, vol. 33, no. 3. Springer Science and Business Media LLC, pp. 306–312, May 1995. doi: 10.1007/bf02510504.
 
-[7]	“¿Sabes para qué sirven los filtros y cuáles son los valores recomendados?,” CardioTeca, 05-Jul-2023. [Online]. Available: https://www.cardioteca.com/pildoras-ecg/5017-sabes-para-que-sirven-los-filtros-y-cuales-son-los-valores-recomendados.html. [Accessed: 18-Oct-2023].
+[7]  S. M. Usman, S. Khalid, R. Akhtar, Z. Bortolotto, Z. Bashir, and H. Qiu, “Using scalp EEG and intracranial EEG signals for predicting epileptic seizures: Review of available methodologies,” Seizure, vol. 71. Elsevier BV, pp. 258–269, Oct. 2019. doi: 10.1016/j.seizure.2019.08.006.
+
+[8]   H. Ocak, “Automatic detection of epileptic seizures in EEG using discrete wavelet transform and approximate entropy,” Expert Systems with Applications, vol. 36, no. 2. Elsevier BV, pp. 2027–2036, Mar. 2009. doi: 10.1016/j.eswa.2007.12.065.
