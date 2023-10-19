@@ -36,15 +36,15 @@ Los filtros IIR son utilizados en el procesamiento de señales bioeléctricas, c
 La transformada wavelet discreta (DWT) es una técnica de procesamiento de señales que permite analizar señales no estacionarias y detectar cambios abruptos en la señal. Las wavelets son señales que tienen una duración limitada y un valor promedio de cero. La DWT se obtiene al discretizar los parámetros de desplazamiento y escalamiento dentro de la transformada wavelet continua. Los coeficientes wavelet nos indican cuánta relación hay entre la señal y la wavelet madre, lo que nos permite conocer los componentes frecuenciales de la señal. La DWT se utiliza en el procesamiento de señales bioeléctricas, como el EMG, para extraer características de la señal y mejorar su análisis[4][5][6].
 
 ## Referencias
-[1]	EUM, “Introducción a los Filtros Digitales,” Edu.uy. [Online]. Available: https://www.eumus.edu.uy/eme/ensenanza/electivas/dsp/presentaciones/clase10.pdf. [Accessed: 18-Oct-2023].
+[1]	Smith, Julius, “Introduction to Digital Filters with Audio Applications”, 2007, W3K Publishing. [Accessed: 18-Oct-2023].
 
-[2]	D. M. B. D. Torres, “INTRODUCCIÓN A LOS FILTROS DIGITALES UN ENFOQUE TEÓRICO-PRÁCTICO,” Azurewebsites.net, Jan-2018. [Online]. Available: http://diegorenza.azurewebsites.net/books/Introduccion_Filtros_Digitales.pdf. [Accessed: 18-Oct-2023].
+[2]	J. G. Proakis, D. G. Manolakis, and Pearson, Digital signal processing. Dorling Kindersley (India): Pearson, Cop, 2013.
 
 [3]	T. de Grado Presentado por, “Acondicionamiento de Señales Bioeléctricas,” Core.ac.uk. [Online]. Available: https://core.ac.uk/download/pdf/71394319.pdf. [Accessed: 18-Oct-2023].
 
 [4]	“Redes neuronales en la caracterización de señales bioeléctricas – acervo para el mejoramiento del aprendizaje de alumnos de ingeniería, en Inteligencia Artificial,” Unam.mx. [Online]. Available: https://virtual.cuautitlan.unam.mx/intar/?page_id=977. [Accessed: 18-Oct-2023].
 
-[5]	Wikipedia contributors, “IIR,” Wikipedia, The Free Encyclopedia. [Online]. Available: https://es.wikipedia.org/w/index.php?title=IIR&oldid=117829344.
+[5]	A. V. Oppenheim and R. W. Schafer, Discrete-time signal processing. New York, Ny: Peason, 2013.
 
 [6]	Universidad Tecnológica de Pereira, “CARACTERIZACIÓN DE SEÑALES ELECTROMIOGRÁFICAS PARA LA DISCRIMINACIÓN DE SEIS MOVIMIENTOS DE LA MANO,” Unirioja.es, Agosto de 2009. [Online]. Available: https://dialnet.unirioja.es/descarga/articulo/4706922.pdf. [Accessed: 18-Oct-2023].
 
