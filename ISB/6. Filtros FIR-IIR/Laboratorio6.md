@@ -28,21 +28,19 @@ Son una herramienta crucial en el procesamiento digital de señales (PDS). Estos
 #### Filtros FIR
 Los filtros FIR (Respuesta finita al impulso) son aquellos que tienen una respuesta al impulso de duración finita. Estos filtros son estables porque la sumatoria contiene una cantidad finita de elementos[1]. Los filtros FIR son ampliamente utilizados en el procesamiento de señales debido a su simplicidad y facilidad de implementación[2]. Los filtros FIR se pueden diseñar usando técnicas como la del ventaneo o el método de mínimos cuadrados. Las ventanas que se escogen para diseñar los filtros FIR pueden ayudar a mitigar en mayor o menor medida los efectos del fenómeno de Gibbs.
 <p align="center"><img src="Imagenes_lab6/fir_ventanas.png" width=400p /></p>
-                                                      Figura 1. Ventana rectangular
+<p align="center">Figura 1. Ventana rectangular</p>
 
 #### Filtros IIR
 Los filtros IIR (respuesta infinita al impulso) son sistemas causales que trabajan en tiempo real y tienen una respuesta de fase no lineal. El diseño de estos filtros se basa en la transformada Z, que permite representar la función de transferencia del filtro en el dominio Z. Los filtros IIR presentan una cantidad infinita de términos cuando se les aplica un impulso, lo que los hace más complejos que los filtros FIR. Los filtros IIR se utilizan en el procesamiento de señales bioeléctricas, como el ECG, EEG y EMG, para eliminar el ruido y las interferencias que pueden afectar la calidad de la señal y dificultar su análisis[3][4].
 
 Los filtros IIR son utilizados en el procesamiento de señales bioeléctricas, como el EMG, para eliminar el ruido y las interferencias que pueden afectar la calidad de la señal y dificultar su análisis. Los tipos de filtros IIR más comunes son Butterworth, Chebyshev, Elliptic, Bessel y Causalidad. [1] El filtro Butterworth es un filtro de respuesta plana en la banda de paso y decae suavemente en la banda de rechazo.[2] El filtro Chebyshev presenta una respuesta de rizado en la banda de paso, pero tiene una pendiente más empinada en la banda de transición que el filtro Butterworth.[3][5] El filtro Elliptic presenta una respuesta de rizado tanto en la banda de paso como en la de rechazo, pero tiene la pendiente más empinada en la banda de transición. El filtro Bessel tiene una respuesta de fase lineal, lo que significa que no introduce distorsión en la señal de salida. El filtro de causalidad es un filtro IIR que solo utiliza valores pasados de la señal de entrada para calcular la salida, lo que lo hace útil en aplicaciones en tiempo real. En general, el tipo de filtro IIR utilizado en el procesamiento de señales bioeléctricas dependerá de las características específicas de la señal y de los requisitos de la aplicación.[4][5]
 <p align="center"><img src="Imagenes_lab6/iir_tipos.png" width=400p /></p>
-                                                      Figura 2. Tipos de filtros IRR
+<p align="center">Figura 2. Tipos de filtros IRR</p>
 
 #### Filtros Wavelet
 La transformada wavelet discreta (DWT) es una técnica de procesamiento de señales que permite analizar señales no estacionarias y detectar cambios abruptos en la señal. Las wavelets son señales que tienen una duración limitada y un valor promedio de cero. La DWT se obtiene al discretizar los parámetros de desplazamiento y escalamiento dentro de la transformada wavelet continua. Los coeficientes wavelet nos indican cuánta relación hay entre la señal y la wavelet madre, lo que nos permite conocer los componentes frecuenciales de la señal. La DWT se utiliza en el procesamiento de señales bioeléctricas, como el EMG, para extraer características de la señal y mejorar su análisis[4][5].
 
 ## Filtros en señal ECG
-
-## Filtros en señal EMG
 
 ## Filtros en señal EMG
 El uso de filtros FIR, IIR y DWT en el procesamiento de señales EMG puede tener diferentes efectos y aplicaciones. A continuación, se describen algunos aspectos relevantes de cada filtro:
@@ -56,6 +54,15 @@ El uso de filtros FIR, IIR y DWT en el procesamiento de señales EMG puede tener
 - Aplicaciones en diagnóstico y análisis: El procesamiento de señales EMG con filtros FIR, IIR y DWT puede tener diversas aplicaciones en el diagnóstico y análisis de patologías musculares. Por ejemplo, en el artículo "Diseño de un sistema para el análisis de señales dinámicas electromiográficas en estudios de ergonomía basado en técnicas temporales y frecuenciales"[4], se utiliza la DWT para extraer características de la señal EMG y estudiar la fatiga muscular. En el artículo "Mecanomiografía: desarrollo de un dispositivo para el monitoreo del límite de fatiga muscular"[5], se utiliza un filtro FIR para eliminar el ruido de la señal EMG y detectar el límite de fatiga muscular.
 
 En conclusión, el uso de filtros FIR, IIR y DWT en el procesamiento de señales EMG puede mejorar la calidad de la señal, eliminar el ruido y las interferencias, extraer características de la señal y tener diversas aplicaciones en el diagnóstico y análisis de patologías musculares.
+
+## Filtros en señal EEG
+La aplicación de filtros a las señales EEG permite la eliminación de artefactos y el aislamiento de las características de interés por lo que es crucial su aplicación dentro de la etapa de procesamiento. Uno de los principales desafíos en el análisis de señales EEG es la presencia de artefactos generados por movimientos musculares o artefactos EMG. Estos artefactos pueden degradar significativamente la calidad de la señal y complicar el análisis computacional. [6] Para abordar este problema, se pueden aplicar varios tipos de filtros, incluyendo los filtros FIR, IIR y Wavelet. 
+
+Los filtros FIR se destacan por su capacidad para minimizar los artefactos EMG en señales EEG contaminadas, ya que atenúan selectivamente las componentes de alta frecuencia y permiten una menor degradación de las ondas cerebrales. Además, se ha demostrado que las estructuras de filtro FIR modificadas con una conexión en cascada, twicing y sharpening, pueden mejorar la relación señal-ruido (SNR) en señales EEG simuladas. Los estudios también han demostrado que estas estructuras de filtro FIR modificadas superan a otros métodos propuestos para la atenuación de artefactos EMG, lo que respalda su eficacia en el filtrado de señales EEG.[6]
+
+El filtrado IIR, por otro lado, ha sido sugerido en la literatura como una alternativa para atenuar los artefactos EMG. Sin embargo, es importante tener en cuenta que los filtros IIR pueden introducir distorsiones en la fase de la señal, lo que podría ser problemático en aplicaciones que requieran una alta fidelidad en la representación de la fase. [7]
+
+Finalmente, los filtros Wavelet han demostrado ser eficaces en la eliminación de artefactos y la extracción de características relevantes en señales EEG, con la ventaja de que pueden adaptarse a las características temporales y de frecuencia de la señal. Los filtros Wavelet también se han utilizado con éxito en la clasificación de estados interictales y preictales en pacientes con epilepsia, lo que destaca su utilidad en aplicaciones clínicas. [8]
 
 
 ## Referencias
