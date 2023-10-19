@@ -11,11 +11,13 @@
 #
 
 ## Tabla de contenidos
-
 1. Conceptos previos
-  * Filtros digitales
+    * Filtros digitales
       * Filtros FIR
       * Filtros IIR
+2. Filtros en señal ECG
+3. Filtros en señal EMG
+3. Filtros en señal EMG
 
 ## Conceptos previos
 Este informe tiene como objetivo mostrar el uso de diferentes filtros (FIR, IIR y DWT) en las señales de ECG, EMG y EEG adquiridas en clase. Los filtros son herramientas que permiten modificar una señal para eliminar o resaltar ciertas características de interés. En el caso de las señales bioeléctricas, como el ECG, EMG y EEG, los filtros son utilizados para eliminar el ruido y las interferencias que pueden afectar la calidad de la señal y dificultar su análisis. 
@@ -34,6 +36,24 @@ Los filtros IIR son utilizados en el procesamiento de señales bioeléctricas, c
 
 #### Filtros Wavelet
 La transformada wavelet discreta (DWT) es una técnica de procesamiento de señales que permite analizar señales no estacionarias y detectar cambios abruptos en la señal. Las wavelets son señales que tienen una duración limitada y un valor promedio de cero. La DWT se obtiene al discretizar los parámetros de desplazamiento y escalamiento dentro de la transformada wavelet continua. Los coeficientes wavelet nos indican cuánta relación hay entre la señal y la wavelet madre, lo que nos permite conocer los componentes frecuenciales de la señal. La DWT se utiliza en el procesamiento de señales bioeléctricas, como el EMG, para extraer características de la señal y mejorar su análisis[4][5][6].
+
+## Filtros en señal ECG
+
+## Filtros en señal EMG
+
+## Filtros en señal EMG
+l uso de filtros FIR, IIR y DWT en el procesamiento de señales EMG puede tener diferentes efectos y aplicaciones. A continuación, se describen algunos aspectos relevantes de cada filtro:
+
+- Efecto en la calidad de la señal: Los filtros FIR, IIR y DWT pueden mejorar la calidad de la señal EMG al eliminar el ruido y las interferencias que pueden afectar la señal. En particular, los filtros FIR y IIR se utilizan para eliminar el ruido de la señal, mientras que la DWT se utiliza para extraer características de la señal y mejorar su análisis[1][2][3].
+
+- Eliminación de ruido e interferencias: Los filtros FIR, IIR y DWT se utilizan en el procesamiento de señales EMG para eliminar el ruido y las interferencias que pueden afectar la calidad de la señal y dificultar su análisis. En particular, los filtros FIR y IIR se utilizan para eliminar el ruido de la señal, mientras que la DWT se utiliza para extraer características de la señal y mejorar su análisis[4][5].
+
+- Extracción de características: La DWT se utiliza en el procesamiento de señales EMG para extraer características de la señal y mejorar su análisis. En particular, la DWT permite analizar señales no estacionarias y detectar cambios abruptos en la señal, lo que puede ser útil para detectar patrones de fatiga muscular[3[5].
+
+- Aplicaciones en diagnóstico y análisis: El procesamiento de señales EMG con filtros FIR, IIR y DWT puede tener diversas aplicaciones en el diagnóstico y análisis de patologías musculares. Por ejemplo, en el artículo "Diseño de un sistema para el análisis de señales dinámicas electromiográficas en estudios de ergonomía basado en técnicas temporales y frecuenciales"[4], se utiliza la DWT para extraer características de la señal EMG y estudiar la fatiga muscular. En el artículo "Mecanomiografía: desarrollo de un dispositivo para el monitoreo del límite de fatiga muscular"[5], se utiliza un filtro FIR para eliminar el ruido de la señal EMG y detectar el límite de fatiga muscular.
+
+En conclusión, el uso de filtros FIR, IIR y DWT en el procesamiento de señales EMG puede mejorar la calidad de la señal, eliminar el ruido y las interferencias, extraer características de la señal y tener diversas aplicaciones en el diagnóstico y análisis de patologías musculares.
+
 
 ## Referencias
 [1]	Smith, Julius, “Introduction to Digital Filters with Audio Applications”, 2007, W3K Publishing. [Accessed: 18-Oct-2023].
