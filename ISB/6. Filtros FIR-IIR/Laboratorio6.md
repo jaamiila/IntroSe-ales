@@ -42,7 +42,7 @@ La transformada wavelet discreta (DWT) es una técnica de procesamiento de seña
 ## Filtros en señal EMG
 
 ## Filtros en señal EMG
-l uso de filtros FIR, IIR y DWT en el procesamiento de señales EMG puede tener diferentes efectos y aplicaciones. A continuación, se describen algunos aspectos relevantes de cada filtro:
+El uso de filtros FIR, IIR y DWT en el procesamiento de señales EMG puede tener diferentes efectos y aplicaciones. A continuación, se describen algunos aspectos relevantes de cada filtro:
 
 - Efecto en la calidad de la señal: Los filtros FIR, IIR y DWT pueden mejorar la calidad de la señal EMG al eliminar el ruido y las interferencias que pueden afectar la señal. En particular, los filtros FIR y IIR se utilizan para eliminar el ruido de la señal, mientras que la DWT se utiliza para extraer características de la señal y mejorar su análisis[1][2][3].
 
