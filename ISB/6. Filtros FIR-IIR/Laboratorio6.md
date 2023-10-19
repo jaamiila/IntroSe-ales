@@ -1,6 +1,6 @@
 # Filtros IIR y FIR
 
-### Laboratorio 7
+### Laboratorio 6
 
 #
 ## Objetivos
