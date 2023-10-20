@@ -41,6 +41,16 @@ Los filtros IIR son utilizados en el procesamiento de señales bioeléctricas, c
 La transformada wavelet discreta (DWT) es una técnica de procesamiento de señales que permite analizar señales no estacionarias y detectar cambios abruptos en la señal. Las wavelets son señales que tienen una duración limitada y un valor promedio de cero. La DWT se obtiene al discretizar los parámetros de desplazamiento y escalamiento dentro de la transformada wavelet continua. Los coeficientes wavelet nos indican cuánta relación hay entre la señal y la wavelet madre, lo que nos permite conocer los componentes frecuenciales de la señal. La DWT se utiliza en el procesamiento de señales bioeléctricas, como el EMG, para extraer características de la señal y mejorar su análisis[4][5].
 
 ## Filtros en señal ECG
+El uso de filtros es necesario para la obtención de una buena señal que sea fácil de interpretar, para eso debemos eliminar tanto ruidos instrumentales como captados erróneamente por el sensor. Para conocer qué es lo que debemos suprimir y que mantener necesitamos conocer unas características el ECG, como que su rango de frecuencia es de 0.5-100Hz, lo que lo vuelve una dificultad con ciertos ruidos, por ejemplo, las interferencias debido a las líneas eléctricas pueden ser muy significativo para la medición de eventos biomédicos, además del problema de que su ruido característico es a 50/60Hz, por lo que es necesario suprimir sin afectar las mediciones, para eso se pueden emplear filtros FIR, IIR y DWT[9][11][14].
+
+<p align="center">Imagen 1. Señal ECG despues de pasar por un filtro FIR</p>
+
+<p align="center">Imagen 2. Señal ECG despues de pasar por un filtro IIR</p>
+
+<p align="center">Imagen 3. Señal ECG despues de pasar por un filtro DWT</p>
+
+Como se observa en las respectivas imágenes, después de pasar por sus respectivos filtros se puede notar sus respectivos efectos a la señal, algo a tener en cuenta es el desplazamiento obtenido por el filtro FIR debido a la naturaleza de este. Otra utilidad que se le puede dar al filtrado es para casos donde la enfermedad provoca alteraciones en esta de manera que no los confundamos debido al ruido, por ejemplo la apnea del sueño obstruida[12] donde debido a la falta de oxígeno se crea una diferencia entre las ondas, para el cual se pueden detectar mediante equipos y almacenarlos para  hacer una comparación, el problema es que en caso de que un ruido llegue a producir una falsa alerta puede crear desconfianza del funcionamiento del producto, además de provocarle problemas al paciente y a los asistentes.
+Por lo que resumiendo, el filtrado es importante para una correcta interpretación de la señal evitando así falsas alarmas.
 
 ## Filtros en señal EMG
 El uso de filtros FIR, IIR y DWT en el procesamiento de señales EMG puede tener diferentes efectos y aplicaciones. A continuación, se describen algunos aspectos relevantes de cada filtro:
@@ -49,7 +59,7 @@ El uso de filtros FIR, IIR y DWT en el procesamiento de señales EMG puede tener
 
 - Eliminación de ruido e interferencias: Los filtros FIR, IIR y DWT se utilizan en el procesamiento de señales EMG para eliminar el ruido y las interferencias que pueden afectar la calidad de la señal y dificultar su análisis. En particular, los filtros FIR y IIR se utilizan para eliminar el ruido de la señal, mientras que la DWT se utiliza para extraer características de la señal y mejorar su análisis[4][5].
 
-- Extracción de características: La DWT se utiliza en el procesamiento de señales EMG para extraer características de la señal y mejorar su análisis. En particular, la DWT permite analizar señales no estacionarias y detectar cambios abruptos en la señal, lo que puede ser útil para detectar patrones de fatiga muscular[3[5].
+- Extracción de características: La DWT se utiliza en el procesamiento de señales EMG para extraer características de la señal y mejorar su análisis. En particular, la DWT permite analizar señales no estacionarias y detectar cambios abruptos en la señal, lo que puede ser útil para detectar patrones de fatiga muscular[3][5].
 
 - Aplicaciones en diagnóstico y análisis: El procesamiento de señales EMG con filtros FIR, IIR y DWT puede tener diversas aplicaciones en el diagnóstico y análisis de patologías musculares. Por ejemplo, en el artículo "Diseño de un sistema para el análisis de señales dinámicas electromiográficas en estudios de ergonomía basado en técnicas temporales y frecuenciales"[4], se utiliza la DWT para extraer características de la señal EMG y estudiar la fatiga muscular. En el artículo "Mecanomiografía: desarrollo de un dispositivo para el monitoreo del límite de fatiga muscular"[5], se utiliza un filtro FIR para eliminar el ruido de la señal EMG y detectar el límite de fatiga muscular.
 
@@ -81,3 +91,15 @@ Finalmente, los filtros Wavelet han demostrado ser eficaces en la eliminación d
 [7]  S. M. Usman, S. Khalid, R. Akhtar, Z. Bortolotto, Z. Bashir, and H. Qiu, “Using scalp EEG and intracranial EEG signals for predicting epileptic seizures: Review of available methodologies,” Seizure, vol. 71. Elsevier BV, pp. 258–269, Oct. 2019. doi: 10.1016/j.seizure.2019.08.006.
 
 [8]   H. Ocak, “Automatic detection of epileptic seizures in EEG using discrete wavelet transform and approximate entropy,” Expert Systems with Applications, vol. 36, no. 2. Elsevier BV, pp. 2027–2036, Mar. 2009. doi: 10.1016/j.eswa.2007.12.065.
+
+[9] G. Kadam y P. Bhaskar, “REDUCTION OF POWER LINE INTERFERENCE IN ECG SIGNAL USING FIR FILTER”, Int. J. Comput. Eng. Res., vol. 2, n.º 2, pp. 314–319, 2012. Accedido el 18 de octubre de 2023. [En línea]. Disponible: https://www.researchgate.net/profile/Bhaskar-C/publication/252068169_REDUCTION_OF_POWER_LINE_INTERFERENCE_IN_ECG_SIGNAL_USING_FIR_FILTER/links/592286a5aca27295a8a648a3/REDUCTION-OF-POWER-LINE-INTERFERENCE-IN-ECG-SIGNAL-USING-FIR-FILTER.pdf
+
+[10] M. Chavan, “Design and implementation of Digital FIR Equiripple Notch Filter on ECG Signal for removal of Power line Interference”, WSEAS TRANS. SIGNAL PROCESS., vol. 4, n.º 4, pp. 221–230, 2008. Accedido el 18 de octubre de 2023. [En línea]. Disponible: https://www.researchgate.net/profile/Mahadev-Uplane/publication/228346300_Design_and_implementation_of_digital_FIR_equiripple_notch_filter_on_ECG_signal_for_removal_of_power_line_interference/links/00b7d51a4e01547974000000/Design-and-implementation-of-digital-FIR-equiripple-notch-filter-on-ECG-signal-for-removal-of-power-line-interference.pdf
+
+[11] “Suppression of Baseline Wander and power line interference in ECG using Digital IIR Filter”, INT. J. CIRCUITS, SYST. SIGNAL PROCESS., vol. 2, n.º 2, pp. 356–365, 2008. Accedido el 18 de octubre de 2023. [En línea]. Disponible: https://n9.cl/fgze1
+
+[12] “Application of an optimal class of antisymmetric wavelet filter banks for obstructive sleep apnea diagnosis using ECG signals”, Comput. Biol. Medicine, vol. 100, pp. 100–113, septiembre de 2018. Accedido el 19 de octubre de 2023. [En línea]. Disponible: https://doi.org/10.1016/j.compbiomed.2018.06.011
+
+[13] A. Daamouche y L. Hamami, “A wavelet optimization approach for ECG signal classification”, Biomed. Signal Process. Control, vol. 7, n.º 4, pp. 342–349, 2012. Accedido el 19 de octubre de 2023. [En línea]. Disponible: https://doi.org/10.1016/j.bspc.2011.07.001
+
+[6] B. Rodrigues y M. Aparecido, “A wavelet-based method for power-line interference removal in ECG signals”, Res. Biomed. Eng., vol. 34, n.º 1, pp. 73–86, 2018. Accedido el 19 de octubre de 2023. [En línea]. Disponible: https://doi.org/10.1590/2446-4740.01817
