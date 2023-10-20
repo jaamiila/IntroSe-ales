@@ -54,6 +54,12 @@ El uso de filtros es necesario para la obtención de una buena señal que sea f�
 
 Como se observa en las respectivas imágenes, después de pasar por sus respectivos filtros se puede notar sus respectivos efectos a la señal, algo a tener en cuenta es el desplazamiento obtenido por el filtro FIR debido a la naturaleza de este. Otra utilidad que se le puede dar al filtrado es para casos donde la enfermedad provoca alteraciones en esta de manera que no los confundamos debido al ruido, por ejemplo la apnea del sueño obstruida[12] donde debido a la falta de oxígeno se crea una diferencia entre las ondas, para el cual se pueden detectar mediante equipos y almacenarlos para  hacer una comparación, el problema es que en caso de que un ruido llegue a producir una falsa alerta puede crear desconfianza del funcionamiento del producto, además de provocarle problemas al paciente y a los asistentes.
 Por lo que resumiendo, el filtrado es importante para una correcta interpretación de la señal evitando así falsas alarmas.
+###Filtro IIR para ECG
+
+###Filtro FIR para ECG
+
+###Filtro Wavelet para ECG
+
 
 ## Filtros en señal EMG
 El uso de filtros FIR, IIR y DWT en el procesamiento de señales EMG puede tener diferentes efectos y aplicaciones. A continuación, se describen algunos aspectos relevantes de cada filtro:
@@ -67,6 +73,11 @@ El uso de filtros FIR, IIR y DWT en el procesamiento de señales EMG puede tener
 - Aplicaciones en diagnóstico y análisis: El procesamiento de señales EMG con filtros FIR, IIR y DWT puede tener diversas aplicaciones en el diagnóstico y análisis de patologías musculares. Por ejemplo, en el artículo "Diseño de un sistema para el análisis de señales dinámicas electromiográficas en estudios de ergonomía basado en técnicas temporales y frecuenciales"[4], se utiliza la DWT para extraer características de la señal EMG y estudiar la fatiga muscular. En el artículo "Mecanomiografía: desarrollo de un dispositivo para el monitoreo del límite de fatiga muscular"[5], se utiliza un filtro FIR para eliminar el ruido de la señal EMG y detectar el límite de fatiga muscular.
 
 En conclusión, el uso de filtros FIR, IIR y DWT en el procesamiento de señales EMG puede mejorar la calidad de la señal, eliminar el ruido y las interferencias, extraer características de la señal y tener diversas aplicaciones en el diagnóstico y análisis de patologías musculares.
+###Filtro IIR para EMG
+
+###Filtro FIR para EMG
+
+###Filtro Wavelet para EMG
 
 ## Filtros en señal EEG
 La aplicación de filtros a las señales EEG permite la eliminación de artefactos y el aislamiento de las características de interés por lo que es crucial su aplicación dentro de la etapa de procesamiento. Uno de los principales desafíos en el análisis de señales EEG es la presencia de artefactos generados por movimientos musculares o artefactos EMG. Estos artefactos pueden degradar significativamente la calidad de la señal y complicar el análisis computacional. [6] Para abordar este problema, se pueden aplicar varios tipos de filtros, incluyendo los filtros FIR, IIR y Wavelet. 
@@ -76,7 +87,11 @@ Los filtros FIR se destacan por su capacidad para minimizar los artefactos EMG e
 El filtrado IIR, por otro lado, ha sido sugerido en la literatura como una alternativa para atenuar los artefactos EMG. Sin embargo, es importante tener en cuenta que los filtros IIR pueden introducir distorsiones en la fase de la señal, lo que podría ser problemático en aplicaciones que requieran una alta fidelidad en la representación de la fase. [7]
 
 Finalmente, los filtros Wavelet han demostrado ser eficaces en la eliminación de artefactos y la extracción de características relevantes en señales EEG, con la ventaja de que pueden adaptarse a las características temporales y de frecuencia de la señal. Los filtros Wavelet también se han utilizado con éxito en la clasificación de estados interictales y preictales en pacientes con epilepsia, lo que destaca su utilidad en aplicaciones clínicas. [8]
+###Filtro IIR para EEG
 
+###Filtro FIR para EEG
+
+###Filtro Wavelet para EEG
 
 ## Referencias
 [1]	Smith, Julius, “Introduction to Digital Filters with Audio Applications”, 2007, W3K Publishing. [Accessed: 18-Oct-2023].
