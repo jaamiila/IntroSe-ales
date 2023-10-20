@@ -63,6 +63,8 @@ Por lo que resumiendo, el filtrado es importante para una correcta interpretaci�
 * Filtro Wavelet para ECG
 <p align="center"><img src="Imagenes_lab6/ecg_wave.png" width=400p /></p>
 
+El filtro FIR es el más óptimo para la filtración de señales ECG debido a su capacidad de mantener una respuesta de fase lineal, asegurando que todas las frecuencias se procesen con el mismo retraso, lo cual es vital para el análisis clínico del ECG. Aunque el filtro IIR puede ser más eficiente computacionalmente, puede introducir distorsiones no deseadas y tiene el potencial de inestabilidad. Mientras que la Transformada Wavelet es útil para descomponer señales en detalle, el FIR destaca por mejorar la claridad y mantener la integridad de las ondas en el ECG.
+
 ## Filtros en señal EMG
 El uso de filtros FIR, IIR y DWT en el procesamiento de señales EMG puede tener diferentes efectos y aplicaciones. A continuación, se describen algunos aspectos relevantes de cada filtro:
 
@@ -85,6 +87,8 @@ En conclusión, el uso de filtros FIR, IIR y DWT en el procesamiento de señales
 * Filtro Wavelet para EMG
 <p align="center"><img src="Imagenes_lab6/emg_wave.png" width=400p /></p>
 
+El filtro FIR parece ser el más óptimo para filtrar señales EMG, ya que ofrece una señal más clara y menos distorsionada en comparación con el filtro IIR.
+
 ## Filtros en señal EEG
 La aplicación de filtros a las señales EEG permite la eliminación de artefactos y el aislamiento de las características de interés por lo que es crucial su aplicación dentro de la etapa de procesamiento. Uno de los principales desafíos en el análisis de señales EEG es la presencia de artefactos generados por movimientos musculares o artefactos EMG. Estos artefactos pueden degradar significativamente la calidad de la señal y complicar el análisis computacional. [6] Para abordar este problema, se pueden aplicar varios tipos de filtros, incluyendo los filtros FIR, IIR y Wavelet. 
 
@@ -101,6 +105,8 @@ Finalmente, los filtros Wavelet han demostrado ser eficaces en la eliminación d
 
 * Filtro Wavelet para EEG
 <p align="center"><img src="Imagenes_lab6/eeg_wave.png" width=400p /></p>
+
+Aunque ambos filtros eliminan el ruido, la señal con el filtro FIR luce menos errática y más consistente. Por otro lado, la Transformada Wavelet ofrece una descomposición detallada en diferentes niveles de coeficientes, lo cual es útil para analizar características específicas de la señal en diversas escalas.
 
 ## Referencias
 [1]	Smith, Julius, “Introduction to Digital Filters with Audio Applications”, 2007, W3K Publishing. [Accessed: 18-Oct-2023].
