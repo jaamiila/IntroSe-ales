@@ -23,7 +23,7 @@
 Este informe tiene como objetivo mostrar el uso de diferentes filtros (FIR, IIR y DWT) en las señales de ECG, EMG y EEG adquiridas en clase. Los filtros son herramientas que permiten modificar una señal para eliminar o resaltar ciertas características de interés. En el caso de las señales bioeléctricas, como el ECG, EMG y EEG, los filtros son utilizados para eliminar el ruido y las interferencias que pueden afectar la calidad de la señal y dificultar su análisis. 
 
 ### Filtros digitales
-Son una herramienta crucial en el procesamiento digital de señales (PDS). Estos filtros se utilizan para modificar o analizar las señales digitales, permitiendo separar o combinar ciertas frecuencias en una señal. Dentro de este tipo de filtros tenemos tres tipos: Filtros de respuesta infinita al impulso, filtro de respuesta finita al impulso y filtros wavelet.
+Son una herramienta crucial en el procesamiento digital de señales (PDS). Estos filtros se utilizan para modificar o analizar las señales digitales, permitiendo separar o combinar ciertas frecuencias en una señal. Dentro de los filtros digitales tenemos tres tipos: Filtros de respuesta infinita al impulso, filtro de respuesta finita al impulso y filtros wavelet.
 
 #### Filtros FIR
 Los filtros FIR (Respuesta finita al impulso) son aquellos que tienen una respuesta al impulso de duración finita. Estos filtros son estables porque la sumatoria contiene una cantidad finita de elementos[1]. Los filtros FIR son ampliamente utilizados en el procesamiento de señales debido a su simplicidad y facilidad de implementación[2]. Los filtros FIR se pueden diseñar usando técnicas como la del ventaneo o el método de mínimos cuadrados. Las ventanas que se escogen para diseñar los filtros FIR pueden ayudar a mitigar en mayor o menor medida los efectos del fenómeno de Gibbs.
@@ -43,10 +43,13 @@ La transformada wavelet discreta (DWT) es una técnica de procesamiento de seña
 ## Filtros en señal ECG
 El uso de filtros es necesario para la obtención de una buena señal que sea fácil de interpretar, para eso debemos eliminar tanto ruidos instrumentales como captados erróneamente por el sensor. Para conocer qué es lo que debemos suprimir y que mantener necesitamos conocer unas características el ECG, como que su rango de frecuencia es de 0.5-100Hz, lo que lo vuelve una dificultad con ciertos ruidos, por ejemplo, las interferencias debido a las líneas eléctricas pueden ser muy significativo para la medición de eventos biomédicos, además del problema de que su ruido característico es a 50/60Hz, por lo que es necesario suprimir sin afectar las mediciones, para eso se pueden emplear filtros FIR, IIR y DWT[9][11][14].
 
+<p align="center"><img src="Imagenes_lab6/parte1.png" width=400p /></p>
 <p align="center">Imagen 1. Señal ECG despues de pasar por un filtro FIR</p>
 
+<p align="center"><img src="Imagenes_lab6/parte2.png" width=400p /></p>
 <p align="center">Imagen 2. Señal ECG despues de pasar por un filtro IIR</p>
 
+<p align="center"><img src="Imagenes_lab6/parte3.png" width=400p /></p>
 <p align="center">Imagen 3. Señal ECG despues de pasar por un filtro DWT</p>
 
 Como se observa en las respectivas imágenes, después de pasar por sus respectivos filtros se puede notar sus respectivos efectos a la señal, algo a tener en cuenta es el desplazamiento obtenido por el filtro FIR debido a la naturaleza de este. Otra utilidad que se le puede dar al filtrado es para casos donde la enfermedad provoca alteraciones en esta de manera que no los confundamos debido al ruido, por ejemplo la apnea del sueño obstruida[12] donde debido a la falta de oxígeno se crea una diferencia entre las ondas, para el cual se pueden detectar mediante equipos y almacenarlos para  hacer una comparación, el problema es que en caso de que un ruido llegue a producir una falsa alerta puede crear desconfianza del funcionamiento del producto, además de provocarle problemas al paciente y a los asistentes.
