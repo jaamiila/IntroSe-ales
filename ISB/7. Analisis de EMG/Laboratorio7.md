@@ -2,6 +2,8 @@
 
 ## Objetivos
 * Identificar y medir características relevantes en señales EMG, tanto en el dominio del tiempo como en el de la frecuencia.
+* Comparar la calidad de las características que se pueden extraer de una señal EMG después de ser filtrada por diferentes técnicas (FIR, IIR y Wavelet), con el fin de determinar cuál es la más adecuada para aplicaciones específicas.
+* Relacionar lo aprendido con aplicaciones clínicas donde este tipo de procesamiento tiene una utilidad práctica, como en el diagnóstico de trastornos neuromusculares o en investigaciones relacionadas con la biomecánica.
 
 ## Tabla de contenidos
 1. Introduccion
@@ -9,20 +11,19 @@
 3. Discusion
 
 ## Introduccion
+En el ámbito de las señales biomédicas, el análisis de señales electromiográficas (EMG) es esencial para el diagnóstico y tratamiento de trastornos neuromusculares. Después de adquirir y filtrar estas señales con la placa y software de Bitalino, la extracción de características relevantes es un paso crítico.
+
+Para poder analizar las señales EMG, estas se pueden representar tanto en el dominio del tiempo como en el dominio de la frecuencia. El dominio del tiempo implica manipulaciones como rectificación y filtrado, mientras que el análisis de frecuencia revela aspectos más complejos, esenciales para diseñar amplificadores y filtros. Este análisis es particularmente útil en aplicaciones como la biorretroalimentación, la práctica clínica y la investigación [1]. En este trabajo, exploramos las principales características del análisis de frecuencia de señales EMG y su relevancia en diversos contextos médicos.
 
 ## Resultados de la adquision de caracteristicas del EMG
 
 ## Discusion
-Las señales EMG son una importante fuente de información para el diagnóstico de trastornos neuromusculares y su detección con metodologías avanzadas es un requisito importante en la ingeniería biomédica. El procesamiento de señales EMG es fundamental para comprender adecuadamente la naturaleza y características de la señal en cuestión y realizar implementaciones de hardware para diversas aplicaciones relacionadas con señales EMG. La aplicación de algoritmos y métodos apropiados para el análisis de señales EMG resulta fundamental para poder comprender adecuadamente la naturaleza y características de la señal en cuestión y, de esta manera, realizar implementaciones de hardware para diversas aplicaciones relacionadas con señales EMG[3].
+Las señales EMG son una importante fuente de información para el diagnóstico de trastornos neuromusculares, la detección de atrofias musculares, el análisis funcional de determinados músculos, etc, por ello, un adecuado procesamiento de estas señales y una selección  de algoritmos y métodos apropiados es fundamental para obtener características significativas que permitan realizar implementaciones de hardware o que conlleven a la toma de decisiones.[2] Un ejemplo de aplicación del uso señales EEG para realizar acciones a nivel de hardware es su uso en el control de prótesis de extremidades superiores con alimentación externa[3].
 
-<p align="center"><img src="Imagenes_lab7/imagen_1.png" width=400p /></p>
+<p align="center"><img src="Imagenes_lab7/imagen1.png" width=400p /></p>
 <p align="center">Figura 1. Relación entre la contracción muscular voluntaria y la señal electromiográfica</p>
 
-El procesamiento de señales EMG es esencial para la detección y diagnóstico de trastornos neuromusculares y para la implementación de hardware para diversas aplicaciones relacionadas con señales EMG. Los métodos de procesamiento y análisis de señales electromiográficas son fundamentales para la extracción, análisis y clasificación de las señales EMG[2]. Además, el procesamiento de señales EMG es importante para el control de prótesis de extremidades superiores con alimentación externa, ya que la señal EMG depende de la condición física y el estado de ánimo, por lo que es difícil de usar la señal original EMG para controlar una prótesis de extremidad superior con alimentación externa directamente[3].
-
-El análisis de la señal SEMG se basa en las características temporales, por lo general usando el valor de amplitud rectificado RMS. Sin embargo, las señales SEMG son muy complejas, aleatorias, no estacionarias, no lineales y no se generan por fenómenos periódicos[4]. Por lo tanto, el procesamiento de señales EMG es fundamental para la detección de fatiga muscular y la identificación de enfermedades neuromusculares en las personas[5]. Las redes neuronales son apropiadas para resolver problemas de clasificación, en este caso la red PNN demostró una amplia eficiencia en cuanto a la velocidad de respuesta y sobre todo en el alto porcentaje de acierto en la discriminación de todas las categorías[5].
-
-El procesamiento de señales EMG es esencial para la detección y diagnóstico de trastornos neuromusculares, el control de prótesis de extremidades superiores con alimentación externa, la detección de fatiga muscular y la identificación de enfermedades neuromusculares en las personas. Los métodos de procesamiento y análisis de señales electromiográficas son fundamentales para la extracción, análisis y clasificación de las señales EMG.
+El análisis de la señal SEMG se basa en las características temporales, por lo general usando el valor de amplitud rectificado RMS. Sin embargo, las señales SEMG son muy complejas, aleatorias, no estacionarias, no lineales y no se generan por fenómenos periódicos[5]. Por lo tanto, el procesamiento de señales EMG es fundamental para la detección de fatiga muscular y la identificación de enfermedades neuromusculares en las personas[6]. Así mismo, las redes neuronales son apropiadas para resolver problemas de clasificación, en este caso la red PNN demostró una amplia eficiencia en cuanto a la velocidad de respuesta y sobre todo en el alto porcentaje de acierto en la discriminación de todas las categorías[7].
 
 Las características a considerar en el procesamiento de señales EMG son fundamentales para comprender adecuadamente la naturaleza y características de la señal en cuestión. A continuación, se describen dos características importantes a considerar en el procesamiento de señales EMG:
 
