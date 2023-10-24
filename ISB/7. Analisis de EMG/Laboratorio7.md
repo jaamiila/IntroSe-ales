@@ -16,6 +16,10 @@ En el ámbito de las señales biomédicas, el análisis de señales electromiogr
 Para poder analizar las señales EMG, estas se pueden representar tanto en el dominio del tiempo como en el dominio de la frecuencia. El dominio del tiempo implica manipulaciones como rectificación y filtrado, mientras que el análisis de frecuencia revela aspectos más complejos, esenciales para diseñar amplificadores y filtros. Este análisis es particularmente útil en aplicaciones como la biorretroalimentación, la práctica clínica y la investigación [1]. En este trabajo, exploramos las principales características del análisis de frecuencia de señales EMG y su relevancia en diversos contextos médicos.
 
 ## Resultados de la adquision de caracteristicas del EMG
+<p align="center"><img src="Imagenes_lab7/imagen2.jpeg" width=400p /></p>
+<p align="center"><img src="Imagenes_lab7/imagen3.jpeg" width=400p /></p>
+<p align="center"><img src="Imagenes_lab7/imagen4.jpeg" width=400p /></p>
+<p align="center"><img src="Imagenes_lab7/imagen5.jpeg" width=400p /></p>
 
 ## Discusion
 Las señales EMG son una importante fuente de información para el diagnóstico de trastornos neuromusculares, la detección de atrofias musculares, el análisis funcional de determinados músculos, etc, por ello, un adecuado procesamiento de estas señales y una selección  de algoritmos y métodos apropiados es fundamental para obtener características significativas que permitan realizar implementaciones de hardware o que conlleven a la toma de decisiones.[2] Un ejemplo de aplicación del uso señales EEG para realizar acciones a nivel de hardware es su uso en el control de prótesis de extremidades superiores con alimentación externa[3].
