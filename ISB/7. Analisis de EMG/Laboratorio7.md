@@ -1,1 +1,41 @@
+# Analisis de ECG
 
+## Objetivos
+* Identificar y medir características relevantes en señales EMG, tanto en el dominio del tiempo como en el de la frecuencia.
+
+## Tabla de contenidos
+1. Introduccion
+2. Resultados de la adquision de caracteristicas del ECG
+3. Discusion
+
+## Introduccion
+
+## Resultados de la adquision de caracteristicas del ECG
+
+## Discusion
+Las señales EMG son una importante fuente de información para el diagnóstico de trastornos neuromusculares y su detección con metodologías avanzadas es un requisito importante en la ingeniería biomédica. El procesamiento de señales EMG es fundamental para comprender adecuadamente la naturaleza y características de la señal en cuestión y realizar implementaciones de hardware para diversas aplicaciones relacionadas con señales EMG. La aplicación de algoritmos y métodos apropiados para el análisis de señales EMG resulta fundamental para poder comprender adecuadamente la naturaleza y características de la señal en cuestión y, de esta manera, realizar implementaciones de hardware para diversas aplicaciones relacionadas con señales EMG[3].
+
+Figura 1. Relación entre la contracción muscular voluntaria y la señal electromiográfica
+
+El procesamiento de señales EMG es esencial para la detección y diagnóstico de trastornos neuromusculares y para la implementación de hardware para diversas aplicaciones relacionadas con señales EMG. Los métodos de procesamiento y análisis de señales electromiográficas son fundamentales para la extracción, análisis y clasificación de las señales EMG[2]. Además, el procesamiento de señales EMG es importante para el control de prótesis de extremidades superiores con alimentación externa, ya que la señal EMG depende de la condición física y el estado de ánimo, por lo que es difícil de usar la señal original EMG para controlar una prótesis de extremidad superior con alimentación externa directamente[3].
+
+El análisis de la señal SEMG se basa en las características temporales, por lo general usando el valor de amplitud rectificado RMS. Sin embargo, las señales SEMG son muy complejas, aleatorias, no estacionarias, no lineales y no se generan por fenómenos periódicos[4]. Por lo tanto, el procesamiento de señales EMG es fundamental para la detección de fatiga muscular y la identificación de enfermedades neuromusculares en las personas[5]. Las redes neuronales son apropiadas para resolver problemas de clasificación, en este caso la red PNN demostró una amplia eficiencia en cuanto a la velocidad de respuesta y sobre todo en el alto porcentaje de acierto en la discriminación de todas las categorías[5].
+
+El procesamiento de señales EMG es esencial para la detección y diagnóstico de trastornos neuromusculares, el control de prótesis de extremidades superiores con alimentación externa, la detección de fatiga muscular y la identificación de enfermedades neuromusculares en las personas. Los métodos de procesamiento y análisis de señales electromiográficas son fundamentales para la extracción, análisis y clasificación de las señales EMG.
+
+## Referencias
+[1] P. A. Mathieu and S. J. Sullivan, “Frequency characteristics of signals and instrumentation: Implication for EMG biofeedback studies,” Biofeedback and Self-Regulation, vol. 15, no. 4. Springer Science and Business Media LLC, pp. 335–352, Dec. 1990. doi: 10.1007/bf01000027.
+
+[2]	L. Gila, A. Malanda, I. Rodríguez Carreño, J. Rodríguez Falces, y J. Navallas, “Métodos de procesamiento y análisis de señales electromiográficas”, An. Sist. Sanit. Navar., vol. 32, pp. 27–43, 2009.
+
+[3]	J. Andrés, G. Pinzon, y L. E. Mendoza, “ADQUISICIÓN Y PROCESAMIENTO DE SEÑALES EMG PARA CONTROLAR MOVIMIENTO DE UN BRAZO HIDRAULICO ACQUISITION AND SIGNAL PROCESSING EMG TO CONTROL MOVEMENT OF A HYDRAULIC ARM”, Unirioja.es. [En línea]. Disponible en: https://dialnet.unirioja.es/descarga/articulo/4966249.pdf. [Consultado: 24-oct-2023].
+
+[4] G. Orellana, J. Jacob, and C. Nilo, “FACULTAD DE INGENIERÍA ESCUELA DE INGENIERÍA CIVIL MECATRÓNICA DISEÑO E IMPLEMENTACIÓN DE SISTEMA PARA DETECCIÓN DE SEÑALES ELECTROMIOGRÁFICAS Memoria para optar al Título de Ingeniero Civil Mecatrónico Profesor Guía,” 2018. Available: http://dspace.utalca.cl/bitstream/1950/12299/3/tutcur-20180011.pdf
+
+[5]	J. L. Correa-Figueroa, “Sistema de Adquisición de Señales SEMG para la Detección de Fatiga Muscular”, Org.mx. [En línea]. Disponible en: http://www.scielo.org.mx/scielo.php?pid=S0188-95322016000100017&script=sci_arttext. [Consultado: 24-oct-2023].
+
+[6]	C. M. D. Acevedo, “Optimización y clasificación de señales EMG a través de métodos de reconocimiento de patrones”, Org.co. [En línea]. Disponible en: http://www.scielo.org.co/scielo.php?pid=S1692-17982013000100009&script=sci_arttext. [Consultado: 24-oct-2023].
+
+[7]	M. A. Haberman, “Procesamiento de señales aplicado a dispositivos de ayuda para personas con discapacidades motoras”, Semanticscholar.org. [En línea]. Disponible en: https://pdfs.semanticscholar.org/ad97/e161c6928e85954183780148ebfdc11f9685.pdf. [Consultado: 24-oct-2023].
+
+[8]	Á. M. Sanz, “PROCESADO AVANZADO DE SEÑAL EMG”, Uc3m.es. [En línea]. Disponible en: https://e-archivo.uc3m.es/bitstream/handle/10016/28105/TFG_Alvaro_Moreno_Sanz_2017.pdf?isAllowed=y&sequence=1. [Consultado: 24-oct-2023].
