@@ -16,6 +16,18 @@ En el ámbito de las señales biomédicas, el análisis de señales electromiogr
 Para poder analizar las señales EMG, estas se pueden representar tanto en el dominio del tiempo como en el dominio de la frecuencia. El dominio del tiempo implica manipulaciones como rectificación y filtrado, mientras que el análisis de frecuencia revela aspectos más complejos, esenciales para diseñar amplificadores y filtros. Este análisis es particularmente útil en aplicaciones como la biorretroalimentación, la práctica clínica y la investigación [1]. En este trabajo, exploramos las principales características del análisis de frecuencia de señales EMG y su relevancia en diversos contextos médicos.
 
 ## Resultados de la adquision de caracteristicas del EMG
+1. Visualización y Preprocesamiento de la Señal:
+La señal EMG sin procesar presenta variaciones en amplitud a lo largo del tiempo. Estas variaciones son una combinación de la actividad muscular real y el ruido inherente en cualquier medición biológica. Para mejorar la claridad de la señal y resaltar las características relevantes, es esencial filtrar y procesar la señal.
+
+2. Filtrado Bandpass:
+La aplicación de un filtro bandpass elimina el ruido de baja y alta frecuencia, dejando solo las frecuencias de interés. En este caso, se utilizó un filtro con frecuencias de corte de 2 Hz y 450 Hz. La señal filtrada claramente muestra menos ruido y permite una mejor observación de la actividad muscular.
+
+3. Detección de Actividad:
+Se estableció un umbral basado en la media y la desviación estándar de la señal filtrada para determinar las regiones de actividad. La señal binaria resultante indica claramente las regiones de actividad y no actividad en la señal EMG. Esta señal binaria es esencial para identificar y aislar las contracciones musculares.
+
+4. Identificación de Activaciones EMG:
+Las activaciones EMG se detectaron agrupando regiones consecutivas de la señal binaria. Cada activación representa un período donde la actividad muscular es significativamente mayor que el ruido de fondo.
+
 <p align="center"><img src="Imagenes_lab7/imagen2.jpeg" width=400p /></p>
 <p align="center"><img src="Imagenes_lab7/imagen3.jpeg" width=400p /></p>
 <p align="center"><img src="Imagenes_lab7/imagen4.jpeg" width=400p /></p>
