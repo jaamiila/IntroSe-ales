@@ -15,7 +15,8 @@
 ## Discusion
 Las señales EMG son una importante fuente de información para el diagnóstico de trastornos neuromusculares y su detección con metodologías avanzadas es un requisito importante en la ingeniería biomédica. El procesamiento de señales EMG es fundamental para comprender adecuadamente la naturaleza y características de la señal en cuestión y realizar implementaciones de hardware para diversas aplicaciones relacionadas con señales EMG. La aplicación de algoritmos y métodos apropiados para el análisis de señales EMG resulta fundamental para poder comprender adecuadamente la naturaleza y características de la señal en cuestión y, de esta manera, realizar implementaciones de hardware para diversas aplicaciones relacionadas con señales EMG[3].
 
-Figura 1. Relación entre la contracción muscular voluntaria y la señal electromiográfica
+<p align="center"><img src="Imagenes_lab7/imagen_1.png" width=400p /></p>
+<p align="center">Figura 1. Relación entre la contracción muscular voluntaria y la señal electromiográfica</p>
 
 El procesamiento de señales EMG es esencial para la detección y diagnóstico de trastornos neuromusculares y para la implementación de hardware para diversas aplicaciones relacionadas con señales EMG. Los métodos de procesamiento y análisis de señales electromiográficas son fundamentales para la extracción, análisis y clasificación de las señales EMG[2]. Además, el procesamiento de señales EMG es importante para el control de prótesis de extremidades superiores con alimentación externa, ya que la señal EMG depende de la condición física y el estado de ánimo, por lo que es difícil de usar la señal original EMG para controlar una prótesis de extremidad superior con alimentación externa directamente[3].
 
