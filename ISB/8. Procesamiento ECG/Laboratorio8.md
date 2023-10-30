@@ -1,3 +1,11 @@
+# Procesamiento de ECG
+
+## Tabla de contenidos
+1. Introduccion
+2. Metodologia
+3. Discusion de los resultados
+4. Referencias
+   
 ## Introducción:
 El electrocardiograma estándar de 12 derivaciones es una herramienta fundamental en cardiología, pero a veces no proporciona suficiente información para un diagnóstico completo. El procesamiento y análisis de señales de ECG ofrecen la posibilidad de obtener información adicional valiosa a través de la extracción de características cardíacas y componentes de alta frecuencia para mejorar la precisión diagnóstica del ECG. Por ejemplo, extraer los HF-QRS tiene un gran potencial para mejorar el diagnóstico de condiciones cardíacas como la isquemia y el infarto. [1] Además, se ha estudiado la reducción de la complejidad de los datos para su uso en aprendizaje automático e inteligencia artificial en el ámbito de la salud digital. [2]
 
