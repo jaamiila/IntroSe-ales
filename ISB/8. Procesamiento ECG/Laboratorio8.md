@@ -24,16 +24,16 @@ b) Visualización del espectro de frecuencias: una señal ECG tiene un espectro 
 
 Discusión de resultados:
 
-En cuanto a la discusión del presente trabajo, hemos determinado que la detección del complejo QRS es de suma importancia para realizar los diagnósticos necesarios para determinar las anomalías cardiacas. Primero definamos el Complejo QRS, el cual es denominado de esta manera porque es un registro del movimiento de los impulsos eléctricos, estos se manifiestan en las cavidades inferiores del corazón (ventrículos) [1]. De esta manera, el vector del complejo QRS puede dividirse en 3 derivadas diferentes entre sí [2]:
+En cuanto a la discusión del presente trabajo, hemos determinado que la detección del complejo QRS es de suma importancia para realizar los diagnósticos necesarios para determinar las anomalías cardiacas. Primero definamos el Complejo QRS, el cual es denominado de esta manera porque es un registro del movimiento de los impulsos eléctricos, estos se manifiestan en las cavidades inferiores del corazón (ventrículos) [6]. De esta manera, el vector del complejo QRS puede dividirse en 3 derivadas diferentes entre sí [7]:
 En primer lugar, un pequeño vector que se orienta hacia abajo y a la derecha, corresponde a la despolarización del tabique interventricular. En segundo lugar, los siguientes en despolarizarse son el ventrículo izquierdo y parte del ventrículo derecho; produciendo un gran vector que se dirige hacia abajo y a la izquierda. Por último, el último vector en despolarizarse es la parte basal del ventrículo derecho, generando un pequeño vector que se dirige hacia atrás, hacia arriba y a la derecha.
 
-Distribución impulso cardíaco de Normal y Anormal EKG [3]
-Ritmo sinusal, Fibrilación auricular y ondas e intervalos del electrocardiograma PQRS [4]
+Distribución impulso cardíaco de Normal y Anormal EKG [8]
+Ritmo sinusal, Fibrilación auricular y ondas e intervalos del electrocardiograma PQRS [9]
 
 Debido a la importancia del Complejo QRS, la búsqueda de innovadores modelos y algoritmos matemáticos para su detección es fundamental. Asimismo, el algoritmo que se utiliza en el laboratorio está basado en un análisis digital de pendiente, amplitud y ancho exhaustivo, para el reconocimiento de este conjunto de ondas. Para detallar los pasos que acompañan a este algoritmo, se priorizará minimizar las erróneas detecciones ocasionadas por diferentes tipos de interferencia que se encuentran presentes en la señal de ondas; por este motivo,es determinante el uso previo de un filtro pasabandas porque también apoya el uso de umbrales de incidencia baja para el crecimiento de la sensibilidad de detección. De este modo, el algoritmo se ajusta de forma automática a los umbrales y parámetros que se registran de forma periódica para su adaptación frente a las diversas transformaciones que puede ser objeto de ECG como la morfología QRS y la frecuencia cardíaca.
 
 Ahora explicaremos los parámetros de análisis de variabilidad de la frecuencia cardíaca (VFC).
-Según “ECG Analysis - Heart Rate Variability Parameters” [5]
+Según “ECG Analysis - Heart Rate Variability Parameters” [10]
 El ECG se puede utilizar para medir el intervalo RR, que es el tiempo entre dos ondas R consecutivas en un ECG. El intervalo RR es uno de los parámetros utilizados para medir la VFC, por lo que el electrocardiograma puede proporcionar indirectamente información sobre la VFC.
 
 Estos parámetros se utilizan para medir la variación en el tiempo entre latidos consecutivos. La VFC se puede medir en el dominio del tiempo o de la frecuencia[9]. Estos son algunos de los parámetros de análisis de la VFC:
@@ -52,7 +52,7 @@ Estos parámetros se utilizan para medir la variación en el tiempo entre latido
 
 - Power inside ULF, VLF, Lf and HF Frequency Bands: Estos parámetros se utilizan para medir la potencia de la señal HRV en diferentes bandas de frecuencia[5].
 
-- SD1, SD2, SD1 / SD2: Estos parámetros se derivan del gráfico de Poincaré, que es una representación gráfica de la relación entre intervalos RR consecutivos. SD1 y SD2 son medidas de VFC a corto y largo plazo, respectivamente, y SD1/SD2 es una medida del equilibrio simpatovagal[6].
+- SD1, SD2, SD1 / SD2: Estos parámetros se derivan del gráfico de Poincaré, que es una representación gráfica de la relación entre intervalos RR consecutivos. SD1 y SD2 son medidas de VFC a corto y largo plazo, respectivamente, y SD1/SD2 es una medida del equilibrio simpatovagal[11].
 
 El análisis de la VFC se puede realizar utilizando diferentes métodos y es posible que los resultados de cada método no sean directamente comparables. Por lo tanto, es importante elegir el método adecuado para la investigación o trabajo que se realiza[8].
 
@@ -65,19 +65,15 @@ Referencias:
 [4]Latidos cardíacos ectópicos. (2022, 8 de mayo). MedlinePlus - Health Information from the National Library of Medicine. https://medlineplus.gov/spanish/ency/article/001100.htm#:~:text=Los%20latidos%20cardíacos%20ectópicos%20son,Estos%20son%20comunes.
 [5]“The pNNx files: re-examining a widely used heart rate variability measure.”British Cardiac Society(2002) : 378-380. doi:10.1136/heart.88.4.378.
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1767394/
-[1] “Componentes e intervalos en un electrocardiograma (ECG)”, Cigna.com. [En línea]. Disponible en: https://www.cigna.com/es-us/knowledge-center/hw/componentes-e-intervalos-en-un-electrocardiograma-zm2308. [Consultado: 30-oct-2023].
-
-[2] SEIC, “Complejo QRS”, Ecocardio.com. [En línea]. Disponible en: https://ecocardio.com/documentos/biblioteca-preguntas-basicas/preguntas-al-cardiologo/1046-complejo-qrs.html. [Consultado: 30-oct-2023].
-
-[3] “TEMA 2. PATOLOGÍAS CARDIOCIRCULATORIAS EN UCI”, Salusplay.com. [En línea]. Disponible en: https://www.salusplay.com/apuntes/cuidados-intensivos-uci/tema-2-patologias-cardiocirculatorias-en-uci. [Consultado: 30-oct-2023].
-
-[4] K. Colcha, “ESTUDIOS DE EVIDENCIA EN MUNDO REAL EN ANTICOAGULACIÓN DE FIBRILACIÓN AURICULAR - Vertismed Ecuador”, Vertismed Ecuador - Plataforma Médica Científica, 03-jul-2023.
-
-[5] “Hrv_parameters”, Pluxbiosignals.com. [En línea]. Disponible en: http://notebooks.pluxbiosignals.com/notebooks/Categories/Extract/hrv_parameters_rev.html. [Consultado: 30-oct-2023].
-[6] S. Sieciński, P. S. Kostka, y E. J. Tkacz, “Heart rate variability analysis on electrocardiograms, seismocardiograms and gyrocardiograms on healthy volunteers”, Sensors (Basel), vol. 20, núm. 16, p. 4522, 2020.
-[7] F. Shaffer y J. P. Ginsberg, “An overview of heart rate variability metrics and norms”, Front. Public Health, vol. 5, 2017.
-[8] B. Farnsworth, “Heart rate variability - how to analyze ECG data”, iMotions, 19-jul-2019.
-[9] P. Kumar, A. K. Das, Prachita, y S. Halder, “Time-domain HRV analysis of ECG signal under different body postures”, Procedia Comput. Sci., vol. 167, pp. 1705–1710, 2020.
+[6] “Componentes e intervalos en un electrocardiograma (ECG)”, Cigna.com. [En línea]. Disponible en: https://www.cigna.com/es-us/knowledge-center/hw/componentes-e-intervalos-en-un-electrocardiograma-zm2308. [Consultado: 30-oct-2023].
+[7] SEIC, “Complejo QRS”, Ecocardio.com. [En línea]. Disponible en: https://ecocardio.com/documentos/biblioteca-preguntas-basicas/preguntas-al-cardiologo/1046-complejo-qrs.html. [Consultado: 30-oct-2023].
+[8] “TEMA 2. PATOLOGÍAS CARDIOCIRCULATORIAS EN UCI”, Salusplay.com. [En línea]. Disponible en: https://www.salusplay.com/apuntes/cuidados-intensivos-uci/tema-2-patologias-cardiocirculatorias-en-uci. [Consultado: 30-oct-2023].
+[9] K. Colcha, “ESTUDIOS DE EVIDENCIA EN MUNDO REAL EN ANTICOAGULACIÓN DE FIBRILACIÓN AURICULAR - Vertismed Ecuador”, Vertismed Ecuador - Plataforma Médica Científica, 03-jul-2023.
+[10] “Hrv_parameters”, Pluxbiosignals.com. [En línea]. Disponible en: http://notebooks.pluxbiosignals.com/notebooks/Categories/Extract/hrv_parameters_rev.html. [Consultado: 30-oct-2023].
+[11] S. Sieciński, P. S. Kostka, y E. J. Tkacz, “Heart rate variability analysis on electrocardiograms, seismocardiograms and gyrocardiograms on healthy volunteers”, Sensors (Basel), vol. 20, núm. 16, p. 4522, 2020.
+[12] F. Shaffer y J. P. Ginsberg, “An overview of heart rate variability metrics and norms”, Front. Public Health, vol. 5, 2017.
+[13] B. Farnsworth, “Heart rate variability - how to analyze ECG data”, iMotions, 19-jul-2019.
+[14] P. Kumar, A. K. Das, Prachita, y S. Halder, “Time-domain HRV analysis of ECG signal under different body postures”, Procedia Comput. Sci., vol. 167, pp. 1705–1710, 2020.
 
 
 
