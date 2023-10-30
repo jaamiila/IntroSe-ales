@@ -1,9 +1,9 @@
-Introducción:
+## Introducción:
 El electrocardiograma estándar de 12 derivaciones es una herramienta fundamental en cardiología, pero a veces no proporciona suficiente información para un diagnóstico completo. El procesamiento y análisis de señales de ECG ofrecen la posibilidad de obtener información adicional valiosa a través de la extracción de características cardíacas y componentes de alta frecuencia para mejorar la precisión diagnóstica del ECG. Por ejemplo, extraer los HF-QRS tiene un gran potencial para mejorar el diagnóstico de condiciones cardíacas como la isquemia y el infarto. [1] Además, se ha estudiado la reducción de la complejidad de los datos para su uso en aprendizaje automático e inteligencia artificial en el ámbito de la salud digital. [2]
 
 Este trabajo tiene como objetivo complementar estas investigaciones previas y abordar la importancia de la extracción precisa de características del ECG, incluyendo los intervalos RR, la frecuencia cardíaca, la variabilidad de la frecuencia cardíaca, y la evaluación de las componentes de alta frecuencia, ya que estas características desempeñan un papel crucial en la detección temprana de anomalías y enfermedades cardíacas.
 
-Metodología:
+## Metodología:
 Para la obtención de parámetros importantes se usó como guía biosignals notebook[3], además de los códigos revisados en clase, estos recursos nos serán útiles para tratar las señales y extraer las características más importantes de las mismas. Para ese fin se decidió seguir los pasos:
 1. Importación y carga: se procede a importar los paquetes necesarios para el desarrollo del programa y se carga el archivo ECG a evaluar.
 
@@ -22,7 +22,7 @@ b) Visualización del espectro de frecuencias: una señal ECG tiene un espectro 
 6. Obtención del NN20,pNN20,NN50 y pNN50: El NN20 es el número sucesivo de intervalos R-R que difieren en más de 20ms y el pNN20 es la proporcion de estos respecto al total de R-R, lo mismo para NN50, pero con respecto a 50ms[5]
 
 
-Discusión de resultados:
+## Discusión de resultados:
 
 En cuanto a la discusión del presente trabajo, hemos determinado que la detección del complejo QRS es de suma importancia para realizar los diagnósticos necesarios para determinar las anomalías cardiacas. Primero definamos el Complejo QRS, el cual es denominado de esta manera porque es un registro del movimiento de los impulsos eléctricos, estos se manifiestan en las cavidades inferiores del corazón (ventrículos) [6]. De esta manera, el vector del complejo QRS puede dividirse en 3 derivadas diferentes entre sí [7]:
 En primer lugar, un pequeño vector que se orienta hacia abajo y a la derecha, corresponde a la despolarización del tabique interventricular. En segundo lugar, los siguientes en despolarizarse son el ventrículo izquierdo y parte del ventrículo derecho; produciendo un gran vector que se dirige hacia abajo y a la izquierda. Por último, el último vector en despolarizarse es la parte basal del ventrículo derecho, generando un pequeño vector que se dirige hacia atrás, hacia arriba y a la derecha.
@@ -58,21 +58,34 @@ El análisis de la VFC se puede realizar utilizando diferentes métodos y es pos
 
 Como resultado, la señal que es obtenida por los cambios hechos por los filtros notch, pasabandas y pasaltos, es una muestra de señal que se caracteriza por tener una elevada amplitud (en mV) frente a las señales de reposo. Estos picos notorios en el complejo QRS son preservados luego de la etapa de filtración para luego ser detectados al instaurar los umbrales adaptativos para el ECG y poder especificar la pendiente de las ondas en el complejo QRS.
 
-Referencias:
+## Referencias:
 [1] E. Trägårdh and T. T. Schlegel, “High‐frequency QRS electrocardiogram,” Clinical Physiology and Functional Imaging, vol. 27, no. 4. Wiley, pp. 197–204, Jun. 10, 2007. doi: 10.1111/j.1475-097x.2007.00738.x. 
+
 [2] A. K. Singh and S. Krishnan, “ECG signal feature extraction trends in methods and applications,” BioMedical Engineering OnLine, vol. 22, no. 1. Springer Science and Business Media LLC, Mar. 08, 2023. doi: 10.1186/s12938-023-01075-1.
+
 [3] ECG analysis - heart rate variability parameters. (s.f.). Biosignals Notebook. http://notebooks.pluxbiosignals.com/notebooks/Categories/Extract/hrv_parameters_rev.html
+
 [4]Latidos cardíacos ectópicos. (2022, 8 de mayo). MedlinePlus - Health Information from the National Library of Medicine. https://medlineplus.gov/spanish/ency/article/001100.htm#:~:text=Los%20latidos%20cardíacos%20ectópicos%20son,Estos%20son%20comunes.
+
 [5]“The pNNx files: re-examining a widely used heart rate variability measure.”British Cardiac Society(2002) : 378-380. doi:10.1136/heart.88.4.378.
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1767394/
+
 [6] “Componentes e intervalos en un electrocardiograma (ECG)”, Cigna.com. [En línea]. Disponible en: https://www.cigna.com/es-us/knowledge-center/hw/componentes-e-intervalos-en-un-electrocardiograma-zm2308. [Consultado: 30-oct-2023].
+
 [7] SEIC, “Complejo QRS”, Ecocardio.com. [En línea]. Disponible en: https://ecocardio.com/documentos/biblioteca-preguntas-basicas/preguntas-al-cardiologo/1046-complejo-qrs.html. [Consultado: 30-oct-2023].
+
 [8] “TEMA 2. PATOLOGÍAS CARDIOCIRCULATORIAS EN UCI”, Salusplay.com. [En línea]. Disponible en: https://www.salusplay.com/apuntes/cuidados-intensivos-uci/tema-2-patologias-cardiocirculatorias-en-uci. [Consultado: 30-oct-2023].
+
 [9] K. Colcha, “ESTUDIOS DE EVIDENCIA EN MUNDO REAL EN ANTICOAGULACIÓN DE FIBRILACIÓN AURICULAR - Vertismed Ecuador”, Vertismed Ecuador - Plataforma Médica Científica, 03-jul-2023.
+
 [10] “Hrv_parameters”, Pluxbiosignals.com. [En línea]. Disponible en: http://notebooks.pluxbiosignals.com/notebooks/Categories/Extract/hrv_parameters_rev.html. [Consultado: 30-oct-2023].
+
 [11] S. Sieciński, P. S. Kostka, y E. J. Tkacz, “Heart rate variability analysis on electrocardiograms, seismocardiograms and gyrocardiograms on healthy volunteers”, Sensors (Basel), vol. 20, núm. 16, p. 4522, 2020.
+
 [12] F. Shaffer y J. P. Ginsberg, “An overview of heart rate variability metrics and norms”, Front. Public Health, vol. 5, 2017.
+
 [13] B. Farnsworth, “Heart rate variability - how to analyze ECG data”, iMotions, 19-jul-2019.
+
 [14] P. Kumar, A. K. Das, Prachita, y S. Halder, “Time-domain HRV analysis of ECG signal under different body postures”, Procedia Comput. Sci., vol. 167, pp. 1705–1710, 2020.
 
 
