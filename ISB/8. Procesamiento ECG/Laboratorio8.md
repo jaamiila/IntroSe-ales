@@ -92,7 +92,7 @@ Como resultado, la señal que es obtenida por los cambios hechos por los filtros
 
 [3] ECG analysis - heart rate variability parameters. (s.f.). Biosignals Notebook. http://notebooks.pluxbiosignals.com/notebooks/Categories/Extract/hrv_parameters_rev.html
 
-[4]Latidos cardíacos ectópicos. (2022, 8 de mayo). MedlinePlus - Health Information from the National Library of Medicine. https://medlineplus.gov/spanish/ency/article/001100.htm#:~:text=Los%20latidos%20cardíacos%20ectópicos%20son,Estos%20son%20comunes.
+[4]Latidos cardíacos ectópicos. (2022, 8 de mayo). MedlinePlus - Health Information from the National Library of Medicine. https://medlineplus.gov/spanish/ency/article/001100.htm#:~:text=Los%20latidos%20cardíacos%20ectópicos%20son,Estos%20son%20comunes
 
 [5]“The pNNx files: re-examining a widely used heart rate variability measure.”British Cardiac Society(2002) : 378-380. doi:10.1136/heart.88.4.378.
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1767394/
