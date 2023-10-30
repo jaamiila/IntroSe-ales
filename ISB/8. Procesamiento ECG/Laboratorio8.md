@@ -4,7 +4,7 @@ El electrocardiograma estándar de 12 derivaciones es una herramienta fundamenta
 Este trabajo tiene como objetivo complementar estas investigaciones previas y abordar la importancia de la extracción precisa de características del ECG, incluyendo los intervalos RR, la frecuencia cardíaca, la variabilidad de la frecuencia cardíaca, y la evaluación de las componentes de alta frecuencia, ya que estas características desempeñan un papel crucial en la detección temprana de anomalías y enfermedades cardíacas.
 
 Metodología:
-Para la obtención de parámetros importantes se usó como guía biosignals notebook[X], además de los códigos revisados en clase, estos recursos nos serán útiles para tratar las señales y extraer las características más importantes de las mismas. Para ese fin se decidió seguir los pasos:
+Para la obtención de parámetros importantes se usó como guía biosignals notebook[3], además de los códigos revisados en clase, estos recursos nos serán útiles para tratar las señales y extraer las características más importantes de las mismas. Para ese fin se decidió seguir los pasos:
 1. Importación y carga: se procede a importar los paquetes necesarios para el desarrollo del programa y se carga el archivo ECG a evaluar.
 
 Como se observa se utiliza la librería otorgada por la página así como la numpy que sirve para la interpretación de los datos.
@@ -13,13 +13,13 @@ Como se observa se utiliza la librería otorgada por la página así como la num
   La función list nos sirve para la obtención del canal usado.
 
 3. Generación del tacograma:  se define la estructura fundamental de los parámetros extraídos
-4. Eliminación de latidos cardíacos ectópicos: los latidos cardíacos ectópicos son cambios en los latidos cardíacos lo cual provoca latidos extras[X2], sin embargo estos se consideran comunes pero deben ser suprimidos para la correcta interpretación de la señal.
+4. Eliminación de latidos cardíacos ectópicos: los latidos cardíacos ectópicos son cambios en los latidos cardíacos lo cual provoca latidos extras[4], sin embargo estos se consideran comunes pero deben ser suprimidos para la correcta interpretación de la señal.
 
 5. Extracción de parámetros:
   a) RR máximo y mínimo: se usan las funciones max y min para obtener dichos valores, lo que nos permite identificar en la señal los puntos R-R del ECG, los cuales se guardan con sus respectivos valores
 b) Visualización del espectro de frecuencias: una señal ECG tiene un espectro de frecuencias que va desde 0Hz hasta los 100Hz, por lo que debemos identificar las frecuencias presentes en los datos para poder filtrar los o deseados.
 
-6. Obtención del NN20,pNN20,NN50 y pNN50: El NN20 es el número sucesivo de intervalos R-R que difieren en más de 20ms y el pNN20 es la proporcion de estos respecto al total de R-R, lo mismo para NN50, pero con respecto a 50ms[X3]
+6. Obtención del NN20,pNN20,NN50 y pNN50: El NN20 es el número sucesivo de intervalos R-R que difieren en más de 20ms y el pNN20 es la proporcion de estos respecto al total de R-R, lo mismo para NN50, pero con respecto a 50ms[5]
 
 
 Discusión de resultados:
@@ -61,16 +61,10 @@ Como resultado, la señal que es obtenida por los cambios hechos por los filtros
 Referencias:
 [1] E. Trägårdh and T. T. Schlegel, “High‐frequency QRS electrocardiogram,” Clinical Physiology and Functional Imaging, vol. 27, no. 4. Wiley, pp. 197–204, Jun. 10, 2007. doi: 10.1111/j.1475-097x.2007.00738.x. 
 [2] A. K. Singh and S. Krishnan, “ECG signal feature extraction trends in methods and applications,” BioMedical Engineering OnLine, vol. 22, no. 1. Springer Science and Business Media LLC, Mar. 08, 2023. doi: 10.1186/s12938-023-01075-1.
-[3]https://pubmed.ncbi.nlm.nih.gov/9034667/ 
-
-Referencias(Metodolofia):
-[X]ECG analysis - heart rate variability parameters. (s.f.). Biosignals Notebook. http://notebooks.pluxbiosignals.com/notebooks/Categories/Extract/hrv_parameters_rev.html
-[X2]Latidos cardíacos ectópicos. (2022, 8 de mayo). MedlinePlus - Health Information from the National Library of Medicine. https://medlineplus.gov/spanish/ency/article/001100.htm#:~:text=Los%20latidos%20cardíacos%20ectópicos%20son,Estos%20son%20comunes.
-[X3]“The pNNx files: re-examining a widely used heart rate variability measure.”British Cardiac Society(2002) : 378-380. doi:10.1136/heart.88.4.378.
+[3] ECG analysis - heart rate variability parameters. (s.f.). Biosignals Notebook. http://notebooks.pluxbiosignals.com/notebooks/Categories/Extract/hrv_parameters_rev.html
+[4]Latidos cardíacos ectópicos. (2022, 8 de mayo). MedlinePlus - Health Information from the National Library of Medicine. https://medlineplus.gov/spanish/ency/article/001100.htm#:~:text=Los%20latidos%20cardíacos%20ectópicos%20son,Estos%20son%20comunes.
+[5]“The pNNx files: re-examining a widely used heart rate variability measure.”British Cardiac Society(2002) : 378-380. doi:10.1136/heart.88.4.378.
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1767394/
-
-Fuentes (Discusión)
-
 [1] “Componentes e intervalos en un electrocardiograma (ECG)”, Cigna.com. [En línea]. Disponible en: https://www.cigna.com/es-us/knowledge-center/hw/componentes-e-intervalos-en-un-electrocardiograma-zm2308. [Consultado: 30-oct-2023].
 
 [2] SEIC, “Complejo QRS”, Ecocardio.com. [En línea]. Disponible en: https://ecocardio.com/documentos/biblioteca-preguntas-basicas/preguntas-al-cardiologo/1046-complejo-qrs.html. [Consultado: 30-oct-2023].
