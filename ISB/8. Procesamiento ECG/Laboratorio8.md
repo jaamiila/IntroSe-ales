@@ -38,23 +38,23 @@ El ECG se puede utilizar para medir el intervalo RR, que es el tiempo entre dos 
 
 Estos parámetros se utilizan para medir la variación en el tiempo entre latidos consecutivos. La VFC se puede medir en el dominio del tiempo o de la frecuencia[9]. Estos son algunos de los parámetros de análisis de la VFC:
 
-- Minimum, Maximum and Average RR Interval: El intervalo RR es el tiempo entre dos ondas R consecutivas en un ECG. Los intervalos RR mínimo, máximo y promedio son medidas de la variabilidad en el tiempo entre latidos[7].
+- Minimum, Maximum and Average RR Interval: El intervalo RR es el tiempo entre dos ondas R consecutivas en un ECG. Los intervalos RR mínimo, máximo y promedio son medidas de la variabilidad en el tiempo entre latidos.
 
-- Minimum, Maximum and Average Heart Rate (BPM): Estos parámetros son medidas de la variabilidad de la frecuencia cardíaca[7].
+- Minimum, Maximum and Average Heart Rate (BPM): Estos parámetros son medidas de la variabilidad de la frecuencia cardíaca.
 
-- SDNN: Desviación estándar de los intervalos normal a normal (NN), que es una medida de la VFC general[7].
+- SDNN: Desviación estándar de los intervalos normal a normal (NN), que es una medida de la VFC general[12].
 
-- rmsSD: La raíz cuadrática media de las diferencias sucesivas entre cada latido del corazón, que proporciona una medida confiable de la VFC y la actividad parasimpática [8].
+- rmsSD: La raíz cuadrática media de las diferencias sucesivas entre cada latido del corazón, que proporciona una medida confiable de la VFC y la actividad parasimpática [13].
 
-- NN20, pN20: El número de pares de intervalos NN adyacentes que difieren en más de 20 ms, y la proporción de intervalos NN que difieren en más de 20 ms, respectivamente. Estos parámetros se utilizan para medir la VFC a corto plazo[7].
+- NN20, pN20: El número de pares de intervalos NN adyacentes que difieren en más de 20 ms, y la proporción de intervalos NN que difieren en más de 20 ms, respectivamente. Estos parámetros se utilizan para medir la VFC a corto plazo.
 
-- NN50, pNN50: El número de pares de intervalos NN adyacentes que difieren en más de 50 ms, y la proporción de intervalos NN que difieren en más de 50 ms, respectivamente. Estos parámetros se utilizan para medir la VFC a largo plazo[7].
+- NN50, pNN50: El número de pares de intervalos NN adyacentes que difieren en más de 50 ms, y la proporción de intervalos NN que difieren en más de 50 ms, respectivamente. Estos parámetros se utilizan para medir la VFC a largo plazo[12].
 
-- Power inside ULF, VLF, Lf and HF Frequency Bands: Estos parámetros se utilizan para medir la potencia de la señal HRV en diferentes bandas de frecuencia[5].
+- Power inside ULF, VLF, Lf and HF Frequency Bands: Estos parámetros se utilizan para medir la potencia de la señal HRV en diferentes bandas de frecuencia[10].
 
 - SD1, SD2, SD1 / SD2: Estos parámetros se derivan del gráfico de Poincaré, que es una representación gráfica de la relación entre intervalos RR consecutivos. SD1 y SD2 son medidas de VFC a corto y largo plazo, respectivamente, y SD1/SD2 es una medida del equilibrio simpatovagal[11].
 
-El análisis de la VFC se puede realizar utilizando diferentes métodos y es posible que los resultados de cada método no sean directamente comparables. Por lo tanto, es importante elegir el método adecuado para la investigación o trabajo que se realiza[8].
+El análisis de la VFC se puede realizar utilizando diferentes métodos y es posible que los resultados de cada método no sean directamente comparables. Por lo tanto, es importante elegir el método adecuado para la investigación o trabajo que se realiza[13].
 
 Como resultado, la señal que es obtenida por los cambios hechos por los filtros notch, pasabandas y pasaltos, es una muestra de señal que se caracteriza por tener una elevada amplitud (en mV) frente a las señales de reposo. Estos picos notorios en el complejo QRS son preservados luego de la etapa de filtración para luego ser detectados al instaurar los umbrales adaptativos para el ECG y poder especificar la pendiente de las ondas en el complejo QRS.
 
