@@ -14,34 +14,53 @@ Este trabajo tiene como objetivo complementar estas investigaciones previas y ab
 ## Metodología:
 Para la obtención de parámetros importantes se usó como guía biosignals notebook[3], además de los códigos revisados en clase, estos recursos nos serán útiles para tratar las señales y extraer las características más importantes de las mismas. Para ese fin se decidió seguir los pasos:
 1. Importación y carga: se procede a importar los paquetes necesarios para el desarrollo del programa y se carga el archivo ECG a evaluar.
-
+<p align="center"><img src="Imagenes_lab8/lab8_1.png" width=400p /></p>
+<p align="center">Figura 1. Codigo para la importacion de datos</p>
 Como se observa se utiliza la librería otorgada por la página así como la numpy que sirve para la interpretación de los datos.
 
 2. Información y almacenamiento: se busca determinar el canal utilizado para la adquisición y se almacena la frecuencia utilizada. El código utiliza la función bsnb.load, lo cual ingresando el archivo de datos obtenemos los datos y el cabezal.
-  La función list nos sirve para la obtención del canal usado.
+<p align="center"><img src="Imagenes_lab8/lab8_2.png" width=400p /></p>
+<p align="center">Figura 2. Codigo para almacenamiento de datos</p>
+La función list nos sirve para la obtención del canal usado.
 
 3. Generación del tacograma:  se define la estructura fundamental de los parámetros extraídos
+<p align="center"><img src="Imagenes_lab8/lab8_3.png" width=400p /></p>
+<p align="center">Figura 3. Codigo para generacion del tacograma de datos</p>
+
 4. Eliminación de latidos cardíacos ectópicos: los latidos cardíacos ectópicos son cambios en los latidos cardíacos lo cual provoca latidos extras[4], sin embargo estos se consideran comunes pero deben ser suprimidos para la correcta interpretación de la señal.
 
 5. Extracción de parámetros:
-  a) RR máximo y mínimo: se usan las funciones max y min para obtener dichos valores, lo que nos permite identificar en la señal los puntos R-R del ECG, los cuales se guardan con sus respectivos valores
+a) RR máximo y mínimo: se usan las funciones max y min para obtener dichos valores, lo que nos permite identificar en la señal los puntos R-R del ECG, los cuales se guardan con sus respectivos valores.
+<p align="center"><img src="Imagenes_lab8/lab8_4.png" width=400p /></p>
+<p align="center">Figura 4. Codigo para extraccion de parametros</p>
+
 b) Visualización del espectro de frecuencias: una señal ECG tiene un espectro de frecuencias que va desde 0Hz hasta los 100Hz, por lo que debemos identificar las frecuencias presentes en los datos para poder filtrar los o deseados.
 
-6. Obtención del NN20,pNN20,NN50 y pNN50: El NN20 es el número sucesivo de intervalos R-R que difieren en más de 20ms y el pNN20 es la proporcion de estos respecto al total de R-R, lo mismo para NN50, pero con respecto a 50ms[5]
 
+6. Obtención del NN20,pNN20,NN50 y pNN50: El NN20 es el número sucesivo de intervalos R-R que difieren en más de 20ms y el pNN20 es la proporcion de estos respecto al total de R-R, lo mismo para NN50, pero con respecto a 50ms[5]
+<p align="center"><img src="Imagenes_lab8/lab8_5.png" width=400p /></p>
+<p align="center">Figura 5. Codigo para obtención del NN20,pNN20,NN50 y pNN50</p>
 
 ## Discusión de resultados:
 
 En cuanto a la discusión del presente trabajo, hemos determinado que la detección del complejo QRS es de suma importancia para realizar los diagnósticos necesarios para determinar las anomalías cardiacas. Primero definamos el Complejo QRS, el cual es denominado de esta manera porque es un registro del movimiento de los impulsos eléctricos, estos se manifiestan en las cavidades inferiores del corazón (ventrículos) [6]. De esta manera, el vector del complejo QRS puede dividirse en 3 derivadas diferentes entre sí [7]:
 En primer lugar, un pequeño vector que se orienta hacia abajo y a la derecha, corresponde a la despolarización del tabique interventricular. En segundo lugar, los siguientes en despolarizarse son el ventrículo izquierdo y parte del ventrículo derecho; produciendo un gran vector que se dirige hacia abajo y a la izquierda. Por último, el último vector en despolarizarse es la parte basal del ventrículo derecho, generando un pequeño vector que se dirige hacia atrás, hacia arriba y a la derecha.
 
-Distribución impulso cardíaco de Normal y Anormal EKG [8]
-Ritmo sinusal, Fibrilación auricular y ondas e intervalos del electrocardiograma PQRS [9]
+<p align="center"><img src="Imagenes_lab8/lab8_6.png" width=400p /></p>
+<p align="center">Figura 6. Distribución impulso cardíaco de Normal y Anormal EKG [8]</p>
+
+<p align="center"><img src="Imagenes_lab8/lab8_7.png" width=400p /></p>
+<p align="center">Figura 7. Ritmo sinusal, Fibrilación auricular y ondas e intervalos del electrocardiograma PQRS [9]</p>
+
 
 Debido a la importancia del Complejo QRS, la búsqueda de innovadores modelos y algoritmos matemáticos para su detección es fundamental. Asimismo, el algoritmo que se utiliza en el laboratorio está basado en un análisis digital de pendiente, amplitud y ancho exhaustivo, para el reconocimiento de este conjunto de ondas. Para detallar los pasos que acompañan a este algoritmo, se priorizará minimizar las erróneas detecciones ocasionadas por diferentes tipos de interferencia que se encuentran presentes en la señal de ondas; por este motivo,es determinante el uso previo de un filtro pasabandas porque también apoya el uso de umbrales de incidencia baja para el crecimiento de la sensibilidad de detección. De este modo, el algoritmo se ajusta de forma automática a los umbrales y parámetros que se registran de forma periódica para su adaptación frente a las diversas transformaciones que puede ser objeto de ECG como la morfología QRS y la frecuencia cardíaca.
 
 Ahora explicaremos los parámetros de análisis de variabilidad de la frecuencia cardíaca (VFC).
-Según “ECG Analysis - Heart Rate Variability Parameters” [10]
+
+<p align="center"><img src="Imagenes_lab8/lab8_8.png" width=400p /></p>
+<p align="center">Figura 8. Según “ECG Analysis - Heart Rate Variability Parameters” [10]</p>
+
+
 El ECG se puede utilizar para medir el intervalo RR, que es el tiempo entre dos ondas R consecutivas en un ECG. El intervalo RR es uno de los parámetros utilizados para medir la VFC, por lo que el electrocardiograma puede proporcionar indirectamente información sobre la VFC.
 
 Estos parámetros se utilizan para medir la variación en el tiempo entre latidos consecutivos. La VFC se puede medir en el dominio del tiempo o de la frecuencia[9]. Estos son algunos de los parámetros de análisis de la VFC:
