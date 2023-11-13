@@ -32,7 +32,29 @@ En el estudio del procesamiento de señales EEG, hemos realizado una comparativa
 
 ![EEG_sinfiltrar1](https://github.com/jaamiila/IntroSe-ales/blob/1b36a1f4d4b9bd6e1b07e28fa6443ee28dcbed16/ISB/9.%20Procesamiento%20EEG/Fotos%20de%20Ploteos%20EEG/Ploteo%20EEG%20SIN%20FILTRAR/EEG_sinfiltrar1.png)
 
+![EEG_sinfiltrar2](https://github.com/jaamiila/IntroSe-ales/blob/08dd4043c9386452573018c3252f1eda2bcbf725/ISB/9.%20Procesamiento%20EEG/Fotos%20de%20Ploteos%20EEG/Ploteo%20EEG%20SIN%20FILTRAR/EEG_sinfiltrar2.png)
+
+![EEG_sinfiltrar3](https://github.com/jaamiila/IntroSe-ales/blob/08dd4043c9386452573018c3252f1eda2bcbf725/ISB/9.%20Procesamiento%20EEG/Fotos%20de%20Ploteos%20EEG/Ploteo%20EEG%20SIN%20FILTRAR/EEG_sinfiltrar3.png)
+
+![EEG_sinfiltrar4](https://github.com/jaamiila/IntroSe-ales/blob/08dd4043c9386452573018c3252f1eda2bcbf725/ISB/9.%20Procesamiento%20EEG/Fotos%20de%20Ploteos%20EEG/Ploteo%20EEG%20SIN%20FILTRAR/EEG_sinfiltrar4.png)
+
+![EEG_sinfiltrar5](https://github.com/jaamiila/IntroSe-ales/blob/08dd4043c9386452573018c3252f1eda2bcbf725/ISB/9.%20Procesamiento%20EEG/Fotos%20de%20Ploteos%20EEG/Ploteo%20EEG%20SIN%20FILTRAR/EEG_sinfiltrar5.png)
+
+![EEG_sinfiltrar6](https://github.com/jaamiila/IntroSe-ales/blob/08dd4043c9386452573018c3252f1eda2bcbf725/ISB/9.%20Procesamiento%20EEG/Fotos%20de%20Ploteos%20EEG/Ploteo%20EEG%20SIN%20FILTRAR/EEG_sinfiltrar6.png)
+
 Al contrastar con las señales EEG filtradas, se observa cómo el filtrado modifica la amplitud y la claridad de la señal, eliminando artefactos y ruido, lo que permite un análisis más focalizado en las frecuencias de interés (gráficos de espectro de frecuencia). Específicamente, los gráficos de frecuencia muestran diferencias en la magnitud a lo largo de las bandas de frecuencia entre estados de reposo y de actividad, como el parpadeo, lo cual es crucial para identificar las bandas de frecuencia específicas asociadas con distintos procesos cognitivos y estados de alerta.
+
+![EEG_filtrado1](https://github.com/jaamiila/IntroSe-ales/blob/08dd4043c9386452573018c3252f1eda2bcbf725/ISB/9.%20Procesamiento%20EEG/Fotos%20de%20Ploteos%20EEG/Ploteo%20EEG%20FILTRADO/EGG_filtrado1.png)
+
+![EGG_filtrado2](https://github.com/jaamiila/IntroSe-ales/blob/08dd4043c9386452573018c3252f1eda2bcbf725/ISB/9.%20Procesamiento%20EEG/Fotos%20de%20Ploteos%20EEG/Ploteo%20EEG%20FILTRADO/EGG_filtrado2.png)
+
+![EGG_filtrado3](https://github.com/jaamiila/IntroSe-ales/blob/08dd4043c9386452573018c3252f1eda2bcbf725/ISB/9.%20Procesamiento%20EEG/Fotos%20de%20Ploteos%20EEG/Ploteo%20EEG%20FILTRADO/EGG_filtrado3.png)
+
+![EGG_filtrado4](https://github.com/jaamiila/IntroSe-ales/blob/08dd4043c9386452573018c3252f1eda2bcbf725/ISB/9.%20Procesamiento%20EEG/Fotos%20de%20Ploteos%20EEG/Ploteo%20EEG%20FILTRADO/EGG_filtrado4.png)
+
+![EGG_filtrado5](https://github.com/jaamiila/IntroSe-ales/blob/08dd4043c9386452573018c3252f1eda2bcbf725/ISB/9.%20Procesamiento%20EEG/Fotos%20de%20Ploteos%20EEG/Ploteo%20EEG%20FILTRADO/EGG_filtrado5.png)
+
+![EGG_filtrado6](https://github.com/jaamiila/IntroSe-ales/blob/08dd4043c9386452573018c3252f1eda2bcbf725/ISB/9.%20Procesamiento%20EEG/Fotos%20de%20Ploteos%20EEG/Ploteo%20EEG%20FILTRADO/EGG_filtrado6.png)
 
 Esta comparación entre señales filtradas y no filtradas subraya la importancia del procesamiento adecuado en la interpretación de los EEG, resaltando cómo el filtrado puede mejorar la señal para un análisis más preciso. Los gráficos de frecuencia, tanto para las señales filtradas como no filtradas, son fundamentales para identificar los componentes clave de la señal, desde las frecuencias dominantes hasta los artefactos específicos de ciertas actividades, como el parpadeo. Estas observaciones son cruciales para el desarrollo de técnicas de procesamiento de EEG más efectivas y para mejorar nuestra comprensión de la actividad cerebral en distintas condiciones experimentales.
 
