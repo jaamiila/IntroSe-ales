@@ -71,3 +71,6 @@ Esta comparación entre señales filtradas y no filtradas subraya la importancia
 [5] M. Imani, “Alzheimer’s diseases diagnosis using fusion of high informative BiLSTM and CNN features of EEG signal,” Biomedical Signal Processing and Control, vol. 86. Elsevier BV, p. 105298, Sep. 2023. doi: 10.1016/j.bspc.2023.105298.
 
 [6] A. Jaramillo-Jimenez et al., “Spectral features of resting-state EEG in Parkinson’s Disease: A multicenter study using functional data analysis,” Clinical Neurophysiology, vol. 151. Elsevier BV, pp. 28–40, Jul. 2023. doi: 10.1016/j.clinph.2023.03.363.
+
+[7] pluxbiosignals, “GitHub - pluxbiosignals/biosignalsnotebooks: biosignalsnotebooks project includes a set of Jupyter Notebooks explaining some processing tasks which have been specially designed for biosignalsplux and OpenSignals users. A Python package is also present, containing some functions to support biosignalsnotebooks notebooks or to be used independently.,” GitHub, Aug. 24, 2023. https://github.com/pluxbiosignals/biosignalsnotebooks (accessed Nov. 12, 2023).
+‌
