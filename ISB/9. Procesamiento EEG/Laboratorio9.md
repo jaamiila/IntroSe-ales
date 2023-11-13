@@ -29,8 +29,7 @@ Para la obtención de parámetros importantes se usó como guía biosignals note
 
 ## Discusion de resultados
 En el estudio del procesamiento de señales EEG, hemos realizado una comparativa entre señales EEG filtradas y no filtradas bajo distintas condiciones. Al observar las señales EEG no filtradas, se aprecian patrones distintos que reflejan la actividad cerebral inherente a cada estado. Por ejemplo, en estado de reposo, la señal (gráfica roja) muestra una variabilidad significativa con picos y valles que representan la actividad eléctrica del cerebro en calma. Durante el parpadeo (gráfica azul), emergen picos marcados que denotan artefactos típicos del movimiento ocular. La fase de referencia de 30 segundos (gráfica negra) sirve como control, presentando una señal más uniforme, mientras que en el esfuerzo mental (gráfica verde), la señal se torna más errática, posiblemente indicando una actividad cerebral intensificada por el procesamiento cognitivo.
-<p align="center"><img src="Imagenes_lab8/lab8_6.png" width=400p /></p>
-<p align="center">Figura 6. Distribución impulso cardíaco de Normal y Anormal EKG [8]</p>
+<p align="center"><img src="Fotos de Ploteos EEG/ Ploteo EEG SIN FILTRAR/EEG_sinfiltrar.png" width=400p /></p>
 
 Al contrastar con las señales EEG filtradas, se observa cómo el filtrado modifica la amplitud y la claridad de la señal, eliminando artefactos y ruido, lo que permite un análisis más focalizado en las frecuencias de interés (gráficos de espectro de frecuencia). Específicamente, los gráficos de frecuencia muestran diferencias en la magnitud a lo largo de las bandas de frecuencia entre estados de reposo y de actividad, como el parpadeo, lo cual es crucial para identificar las bandas de frecuencia específicas asociadas con distintos procesos cognitivos y estados de alerta.
 
