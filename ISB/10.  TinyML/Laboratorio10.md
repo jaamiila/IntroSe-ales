@@ -21,9 +21,26 @@ En el campo del análisis de señales biomédicas, como el electrocardiograma (E
    
    Posteriormente, se realiza un proceso de filtrado adicional mediante la Transformada de Wavelet Discreta (DWT). Esta técnica descompone la señal en coeficientes de aproximación y detalle, permitiendo un control más refinado sobre los componentes de la señal. Se establece un umbral para retener solo los componentes significativos y se reconstruye la señal, logrando así una reducción efectiva de ruidos y artefactos. El análisis en el dominio de la frecuencia se lleva a cabo de nuevo mediante FFT, pero esta vez en la señal ya filtrada con DWT. Este análisis es crucial para entender el impacto de las etapas de filtrado sobre la señal en términos de frecuencia.
    
-   Finalmente, el código se centra en la extracción de características clave de la señal de ECG y la creación de un conjunto de datos (dataset). La señal filtrada se segmenta en intervalos de 3 segundos para la extracción de características relevantes, como los intervalos RR, la frecuencia cardíaca en latidos por minuto (BPM) y la desviación estándar de los intervalos NN (SDNN), elementos cruciales en estudios de variabilidad de la frecuencia cardíaca. Estos datos extraídos se almacenan en un archivo CSV, facilitando su análisis y utilización en investigaciones posteriores.
+   Finalmente, el código se centra en la extracción de características clave de la señal de ECG y la creación de un conjunto de datos (dataset) que contega 2 conjuntos de data cruda correspondientes a 2 actividades diferentes. Estos datos extraídos se almacenan en un archivo CSV, facilitando su análisis y utilización en investigaciones posteriores.
 
-3. Integración de TinyML
+2. Edge Impulse
+   Paso 1: Crear una cuenta y proyecto en Edge Impulse
+   Nos registramos en sitio web de Edge Impulse (https://www.edgeimpulse.com/) y crea una cuenta y un nuevo proyecto.
+
+   Paso 2: Recopilar y cargar datos
+   Recopilamos los datos de señales ECG. Usando el dataset (.csv) creado anteriormente
+   Cargamos los datos en Edge Impulse y etiquetamos los segmentos según la clase a la que pertenece.
+
+   Paso 3: Procesamiento de datos
+   Edge Impulse proporciona herramientas como filtros y transformadas, nosotros aplicamos un análisis espectral.
+
+   Paso 4: Diseño del modelo y entrenamiento
+   Seleccionamos el tipo de modelo en la sección de "Create impulse", elegimos el modelo de clasificación y configuramos la arquitectura del modelo: 200 ciclos de entrenamiento y 0.001 de tasa de aprendizaje
+
+   Paso 5: Entrenamiento del modelo
+   Utilizamos los datos cargados previamente para entrenar el modelo. Además, pudimos evaluar el rendimiento del modelo utilizando otros conjuntos de datos que también adquirimos en laboratorios pasados. Se consiguió un nivel de 85% de ACCURACY.
+
+4. Integración de TinyML
 
    La integración de TinyML con plataformas como Edge Impulse es fundamental para el desarrollo y la implementación de soluciones de Machine Learning en dispositivos de borde. Edge Impulse proporciona herramientas necesarias para recopilar datos, entrenar modelos de Machine Learning, y desplegarlos en dispositivos de baja potencia como el Arduino Nano 33 BLE Sense, lo cual es vital para el análisis de ECG, permitiendo un procesamiento eficiente y en tiempo real de los datos biomédicos.
    
