@@ -24,6 +24,7 @@ En el campo del análisis de señales biomédicas, como el electrocardiograma (E
    Finalmente, el código se centra en la extracción de características clave de la señal de ECG y la creación de un conjunto de datos (dataset) que contega 2 conjuntos de data cruda correspondientes a 2 actividades diferentes. Estos datos extraídos se almacenan en un archivo CSV, facilitando su análisis y utilización en investigaciones posteriores.
 
 2. Edge Impulse
+
    Paso 1: Crear una cuenta y proyecto en Edge Impulse
    Nos registramos en sitio web de Edge Impulse (https://www.edgeimpulse.com/) y crea una cuenta y un nuevo proyecto.
 
