@@ -55,6 +55,8 @@ En el campo del análisis de señales biomédicas, como el electrocardiograma (E
 *Disclaimer:* Una de las dificultades principales fue la instalación inadecuada de librerías clave como Chocolatey y Visual Studio, que son esenciales para el correcto funcionamiento de plataformas como Edge Impulse con dispositivos como el Arduino Nano 33 BLE Sense. Esta limitación impidió una conexión efectiva y el aprovechamiento pleno de las capacidades de TinyML. Además, es relevante considerar otros posibles factores que pudieron haber influido en este desafío. Por ejemplo, la compatibilidad entre diferentes versiones de software y hardware puede presentar obstáculos, especialmente en sistemas que requieren una sincronización precisa entre múltiples componentes tecnológicos. También, la curva de aprendizaje asociada con la implementación de tecnologías emergentes como TinyML puede representar una barrera, particularmente en entornos donde la experiencia previa con estas tecnologías es limitada.
 
 ## Conclusiones
+TinyML es un campo de tecnologías de rápido crecimiento, abarcando hardware, algoritmos y software diseñados para ejecutar tareas de aprendizaje automático en dispositivos con restricciones de tamaño y consumo de energía.
+
 Edge impulse se presenta como un punto de inicio para aquellos que estén interesados en la aplicación de Machine Learning para la resolución de problemas, para el caso del análisis de una señal ECG, es un avance significativo para la creación de datasets y poder entrenar modelos para una detección temprana más rápida y eficiente.
 
 ## Referencias
