@@ -8,7 +8,7 @@
 5. Referencias
 
 ## Introduccion
-La integración de TinyML en el análisis de señales de electrocardiograma (ECG) y la elaboración de datasets representa un salto significativo en la tecnología médica. Esta metodología combina el procesamiento avanzado de señales ECG con la eficiencia del aprendizaje automático, adaptado para dispositivos con recursos limitados como los microcontroladores. TinyML no solo mejora la eficiencia y rapidez en el análisis de ECG, sino que también facilita la generación de datasets precisos y detallados. Con herramientas como el Arduino Nano 33 BLE Sense y plataformas como Edge Impulse, se facilita el desarrollo de soluciones de Machine Learning y la creación de datasets en dispositivos de baja potencia, abriendo nuevas oportunidades en el monitoreo cardíaco y la detección temprana de afecciones cardíacas.
+La integración de TinyML en el análisis de señales de electrocardiograma (ECG) y la elaboración de datasets representa un salto significativo en la tecnología médica. Esta metodología combina el procesamiento avanzado de señales ECG con la eficiencia del aprendizaje automático, adaptado para dispositivos con recursos limitados como los microcontroladores. TinyML no solo mejora la eficiencia y rapidez en el análisis de ECG, sino que también facilita la generación de datasets precisos y detallados. Con herramientas como el Arduino Nano 33 BLE Sense y plataformas como Edge Impulse, se facilita el desarrollo de soluciones de Machine Learning y la creación de datasets en dispositivos de baja potencia, abriendo nuevas oportunidades en el monitoreo cardíaco y la detección temprana de afecciones cardíacas [1][2].
 
 ## Metodologia
 En el campo del análisis de señales biomédicas, como el electrocardiograma (ECG), la importación de librerías y herramientas adecuadas es fundamental. 
@@ -60,6 +60,6 @@ En el campo del análisis de señales biomédicas, como el electrocardiograma (E
 
 ## Referencias
 [1]  Edge Impulse, "The Edge AI Platform" Edge Impulse, 2023. [Online]. Available: https://edgeimpulse.com/. [Accessed: Nov. 21, 2023].
-[2] 
+[2] E. Kim, J. Kim, J. Park, H. Ko, and Y. Kyung, "TinyML-Based Classification in an ECG Monitoring Embedded System," in Computers, Materials & Continua, vol. 75, no. 1, pp. 1751-1764, 2023. [Online]. Available: https://doi.org/10.32604/cmc.2023.031663​​​​.
 
 
