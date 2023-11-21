@@ -59,5 +59,7 @@ En el campo del análisis de señales biomédicas, como el electrocardiograma (E
 
 
 ## Referencias
+[1]  Edge Impulse, "The Edge AI Platform" Edge Impulse, 2023. [Online]. Available: https://edgeimpulse.com/. [Accessed: Nov. 21, 2023].
+[2] 
 
 
