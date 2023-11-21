@@ -4,7 +4,8 @@
 1. Introduccion
 2. Metodologia
 3. Discusion de los resultados
-4. Referencias
+4. Conclusiones
+5. Referencias
 
 ## Introduccion
 La integración de TinyML en el análisis de señales de electrocardiograma (ECG) y la elaboración de datasets representa un salto significativo en la tecnología médica. Esta metodología combina el procesamiento avanzado de señales ECG con la eficiencia del aprendizaje automático, adaptado para dispositivos con recursos limitados como los microcontroladores. TinyML no solo mejora la eficiencia y rapidez en el análisis de ECG, sino que también facilita la generación de datasets precisos y detallados. Con herramientas como el Arduino Nano 33 BLE Sense y plataformas como Edge Impulse, se facilita el desarrollo de soluciones de Machine Learning y la creación de datasets en dispositivos de baja potencia, abriendo nuevas oportunidades en el monitoreo cardíaco y la detección temprana de afecciones cardíacas.
@@ -34,3 +35,11 @@ En el campo del análisis de señales biomédicas, como el electrocardiograma (E
 
 
 *Disclaimer:* Una de las dificultades principales fue la instalación inadecuada de librerías clave como Chocolatey y Visual Studio, que son esenciales para el correcto funcionamiento de plataformas como Edge Impulse con dispositivos como el Arduino Nano 33 BLE Sense. Esta limitación impidió una conexión efectiva y el aprovechamiento pleno de las capacidades de TinyML. Además, es relevante considerar otros posibles factores que pudieron haber influido en este desafío. Por ejemplo, la compatibilidad entre diferentes versiones de software y hardware puede presentar obstáculos, especialmente en sistemas que requieren una sincronización precisa entre múltiples componentes tecnológicos. También, la curva de aprendizaje asociada con la implementación de tecnologías emergentes como TinyML puede representar una barrera, particularmente en entornos donde la experiencia previa con estas tecnologías es limitada.
+
+## Conclusiones
+
+
+
+## Referencias
+
+
