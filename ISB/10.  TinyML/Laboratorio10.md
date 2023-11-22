@@ -59,6 +59,13 @@ TinyML es un campo de tecnologías de rápido crecimiento, abarcando hardware, a
 
 Edge impulse se presenta como un punto de inicio para aquellos que estén interesados en la aplicación de Machine Learning para la resolución de problemas, para el caso del análisis de una señal ECG, es un avance significativo para la creación de datasets y poder entrenar modelos para una detección temprana más rápida y eficiente.
 
+[Diclaimer] Durante el desarrollo de la presente práctica de laboratorio, nos enfrentamos a restricciones de tiempo que impidieron la implementación completa de la integración entre el Arduino 33 BLE Sense y el TinyML. Como resultado, nuestro enfoque se centró exclusivamente en la plataforma Edge Impulse para explorar y comprender las aplicaciones de Machine Learning en dispositivos embebidos. Es importante tener en cuenta que la falta de tiempo para abordar todas las facetas del proyecto podría haber afectado la amplitud y la profundidad de nuestra experiencia.
+
+A pesar de este inconveniente, la concentración en Edge Impulse proporcionó una valiosa introducción a las capacidades de desarrollo de algoritmos de Machine Learning en entornos con recursos limitados. La plataforma se destacó como un recurso integral para la creación de datasets y el entrenamiento eficiente de modelos, lo cual se refleja en nuestras conclusiones.
+
+Esperamos que esta nota aclare cualquier ambigüedad con respecto a la implementación completa del proyecto y reafirme el valor obtenido a través de la exploración de Edge Impulse en el contexto de TinyML.
+
+
 ## Referencias
 [1]  Edge Impulse, "The Edge AI Platform" Edge Impulse, 2023. [Online]. Available: https://edgeimpulse.com/. [Accessed: Nov. 21, 2023].
 [2] E. Kim, J. Kim, J. Park, H. Ko, and Y. Kyung, "TinyML-Based Classification in an ECG Monitoring Embedded System," in Computers, Materials & Continua, vol. 75, no. 1, pp. 1751-1764, 2023. [Online]. Available: https://doi.org/10.32604/cmc.2023.031663​​​​.
