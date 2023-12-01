@@ -21,9 +21,9 @@ Reconocemos los riesgos inherentes asociados con las convulsiones tónico-clóni
 * Desafíos en la Adquisición de Señales EEG: Se enfrentaron obstáculos significativos en la adquisición de señales EEG en tiempo real, principalmente debido a problemas de conectividad y fallas en el hardware. Estas dificultades impactaron la comprobación del sistema de adquisición de señales EEG.
 
 * Contribución al Tratamiento de la Epilepsia Pediátrica: A pesar de los desafíos, se desarrolló un algoritmo exitoso para la detección y contabilización de convulsiones, mejorando la comprensión de la distribución temporal de los episodios convulsivos y contribuyendo significativamente al campo de la epilepsia pediátrica y la medicina personalizada.
-
-### Quienes somos?
-
+#
+### Quienes somos?(https://github.com/jaamiila/IntroSe-ales/blob/main/ISB/1.%20Sobre%20Nosotros/Sobre%20nosotros.md#quienes-somos)
+#
 ### Docentes del curso
 - Lewis de la Cruz - umbert.de.la.cruz@upch.pe
 - Moises Meza - moises.meza@upch.pe
