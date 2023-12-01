@@ -6,7 +6,7 @@
 Las convulsiones tónico-clónicas son particularmente significativas en la epilepsia pediátrica; este tipo específico de convulsión necesita mecanismos de detección efectivos debido a sus riesgos inherentes. Nuestro proyecto propone un algoritmo de procesamiento de señales digitales para un dispositivo portátil y ligero para el monitoreo en tiempo real de las convulsiones tónico-clónicas en niños de 6 a 14 años. El algoritmo propuesto extrae las características más relevantes de una señal EEG y es capaz de contar cada episodio de convulsión durante el tiempo de monitoreo. Este proyecto tiene el potencial de mejorar los procesos de toma de decisiones de los profesionales de la salud, influyendo directamente y mejorando la calidad de vida de los pacientes y sus familias.
 
 ## Motivacion
-
+La motivación detrás de nuestro proyecto de detección de convulsiones tónico-clónicas en niños con epilepsia surge de la profunda comprensión de la importancia de abordar de manera efectiva y rápida este tipo específico de convulsión en la población pediátrica. Reconocemos los riesgos inherentes asociados con las convulsiones tónico-clónicas y cómo su detección temprana puede marcar la diferencia en la calidad de vida de los niños afectados y sus familias. La falta de mecanismos de detección efectivos puede llevar a consecuencias graves, y nuestro proyecto busca llenar ese vacío mediante el desarrollo de un algoritmo innovador basado en procesamiento de señales digitales. Al mejorar la capacidad de monitoreo en tiempo real y contar con un enfoque preciso en la identificación de convulsiones, aspiramos a brindar una herramienta valiosa para los profesionales de la salud, permitiéndoles tomar decisiones informadas y personalizadas en el tratamiento de pacientes pediátricos con epilepsia. Nuestro objetivo es contribuir significativamente a la mejora de la atención médica en este campo, impactando positivamente en la vida de aquellos que enfrentan los desafíos diarios de la epilepsia pediátrica.
 
 ## Principales Hallazgos
 * Procesamiento de Datos:
@@ -27,7 +27,7 @@ Las convulsiones tónico-clónicas son particularmente significativas en la epil
   * Jamila Vitella 
     <p align="justify"> Estudiante de octavo ciclo de Ingeniería Biomédica. Me considero responsable y creativa. Me gusta mucho la parte tecnológica de mi carrera ya que nos incentiva a ser más críticos e innovar a través de la ciencia. Me gustaria especializarme en el area de Ingenieria de Tejidos y Biomateriales.
   * Diego Romero
-    <p align="justify"> Estudiante de octavo ciclo de Ingenieria Biomédica con gran admiración a la gestión de salud y futura especialización en Ingeniería Clínica. Me gustaria mejorar la calidad de vida de los pacientes en el sector público.
+    <p align="justify"> Estudiante de octavo ciclo de Ingenieria Biomédica con gran admiración a la gestión de salud y futura especialización en Ingeniería Clínica. Con aspiración a mejorar la calidad de vida de los pacientes en el sector público.
   * Claudia Zavaleta
     <p align="justify"> Estudiante de octavo ciclo de Ingeniería Biomédica con especial interés en el campo de Ingeniería de Tejidos y Biomateriales. Me considero una persona responsable y comprometida a mejorar el sistema de salud del país.
 
