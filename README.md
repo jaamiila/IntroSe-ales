@@ -22,6 +22,8 @@ Reconocemos los riesgos inherentes asociados con las convulsiones tónico-clóni
 
 * Contribución al Tratamiento de la Epilepsia Pediátrica: A pesar de los desafíos, se desarrolló un algoritmo exitoso para la detección y contabilización de convulsiones, mejorando la comprensión de la distribución temporal de los episodios convulsivos y contribuyendo significativamente al campo de la epilepsia pediátrica y la medicina personalizada.
 
+### Quienes somos?
+
 ### Docentes del curso
 - Lewis de la Cruz - umbert.de.la.cruz@upch.pe
 - Moises Meza - moises.meza@upch.pe
