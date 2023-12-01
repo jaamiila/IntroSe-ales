@@ -1,15 +1,24 @@
-# Introduccion a Señales Biomedicas - Grupo 4
-#### *Unidades del curso*
-1. Introducción, adquisición y principios fisiológicos de las señales biomédicas
-2. Análisis de ECG, EMG y EEG
-3. Introducción al tratamiento digital de señales
-4. Informática biomédica e introducción a la inteligencia artificial en señales biomédicas
+# Deteccion de convulsiones tonico-clonicas en niños con epilepsia
+## Detection of tonic-clonic seizures in children with epilepsy
 
-### ¿Que son las señales biomedicas?
-<p align="justify">Son señales electricas, mecanicas, opticas o alguna otra senal que provengan del cuerpo humano y que contenga informacion relacionada a algun proceso biologico, fisiologico o patologico. Son fundamentales para el diagnostico, monitoreo y estudio de las enfermedades.
 
-### Propuesta de proyecto
-<p align="justify">Nuestro propuesta de proyecto es un dispositivo de deteccion de convulsiones mediante el uso del electroencefalograma (EEG) para evaluar la actividad electrica en cerebro.
+## Resumen
+Las convulsiones tónico-clónicas son particularmente significativas en la epilepsia pediátrica; este tipo específico de convulsión necesita mecanismos de detección efectivos debido a sus riesgos inherentes. Nuestro proyecto propone un algoritmo de procesamiento de señales digitales para un dispositivo portátil y ligero para el monitoreo en tiempo real de las convulsiones tónico-clónicas en niños de 6 a 14 años. El algoritmo propuesto extrae las características más relevantes de una señal EEG y es capaz de contar cada episodio de convulsión durante el tiempo de monitoreo. Este proyecto tiene el potencial de mejorar los procesos de toma de decisiones de los profesionales de la salud, influyendo directamente y mejorando la calidad de vida de los pacientes y sus familias.
+
+## Motivacion
+
+
+## Principales Hallazgos
+* Procesamiento de Datos:
+  Se seleccionaron pacientes pediátricos con un alto número de episodios de epilepsia para mejorar la identificación de características en la señal EEG. Se aplicaron FFT y DWT a canales seleccionados, enfocándose en áreas como el lóbulo frontal lateral para obtener una localización más precisa de la actividad epileptogénica.
+
+* Análisis de Frecuencia y Transformada Wavelet: Se utilizó FFT para descomponer la señal EEG en componentes de frecuencia, identificando la banda alfa y otros patrones relevantes. La Transformada Wavelet se aplicó para analizar cómo varían las frecuencias a lo largo del tiempo, ayudando a identificar convulsiones como eventos de alta energía en rangos de frecuencia específicos.
+
+* Detección y Contabilización de Convulsiones: Se implementó un enfoque para contabilizar con precisión las convulsiones, considerando la variación temporal entre picos consecutivos. Esto ayudó a evitar la sobreestimación de episodios convulsivos y permitió una evaluación clínica más informada.
+
+* Desafíos en la Adquisición de Señales EEG: Se enfrentaron obstáculos significativos en la adquisición de señales EEG en tiempo real, principalmente debido a problemas de conectividad y fallas en el hardware. Estas dificultades impactaron la comprobación del sistema de adquisición de señales EEG.
+
+* Contribución al Tratamiento de la Epilepsia Pediátrica: A pesar de los desafíos, se desarrolló un algoritmo exitoso para la detección y contabilización de convulsiones, mejorando la comprensión de la distribución temporal de los episodios convulsivos y contribuyendo significativamente al campo de la epilepsia pediátrica y la medicina personalizada.
 
 ### ¿Quienes somos?
 <p align="justify">Somos estudiantes de la carrera de Ingenieria Biomedica de la Universidad Peruana Cayetano Heridia y Pontificia Universidad Catolica del Peru.
