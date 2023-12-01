@@ -12,5 +12,5 @@
   * Eisel Pinado
     <p align="justify"> Estudiante de octavo ciclo de Ingenieria Biomédica con interes particular en el ámbito de Ingenieria Clinica. Me considero una persona enfocada a sus proyectos y de mente abierta a nuevas ideas.
 
- <img src="1. Sobre Nosotros/fotogrupal.jpeg" height="450">   
+ <img src="1. Sobre Nosotros /fotogrupal.jpeg" height="450">   
 
